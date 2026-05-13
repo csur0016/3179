@@ -1,15 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My first HTML Document</title>
-</head>
-<body>
-    <h1>Heading 1</h1>
-    <p>My First Paragraph.</p>
+<html>
 
-    <h3>Added this heading direatly on GitHub</h3>
-    <p>Added this heading direatly on GitHub</p>
+<head>
+    <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.22.1"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.4.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.21.0"></script>
+
+    <!-- CSS file -->
+    <link rel="stylesheet" type="text/css" href="styles.css" media="all">
+
+</head>
+
+<body>
+    <h2>Dataset from GitHub</h2>
+
+    <div class="chart-container">
+        <div id="scatter_plot"></div>
+    </div>
+
+    <script type="text/javascript">
+        var spec2 = "js/australia_consumption.vg.json";
+        vegaEmbed('#scatter_plot', spec2).then(function (result) {
+            // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        }).catch(console.error);
+    </script>
+
 </body>
+
 </html>
