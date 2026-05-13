@@ -1,0 +1,872 @@
+﻿REF_DATE,GEO,DGUID,Value and volume,Imports and exports,Type of beverage,VALUE
+1993,Canada,,Volume in litres,Imports,Spirits,19590
+1993,Canada,,Volume in litres,Imports,Wines,148787
+1993,Canada,,Volume in litres,Imports,Beer,63129
+1993,Canada,,Volume in litres,Exports,Spirits,80927
+1993,Canada,,Volume in litres,Exports,Wines,470
+1993,Canada,,Volume in litres,Exports,Beer,263930
+1993,Brazil,,Volume in litres,Imports,Spirits,3434
+1993,Chile,,Volume in litres,Imports,Wines,12983
+1993,France,,Volume in litres,Imports,Spirits,2183
+1993,France,,Volume in litres,Imports,Wines,50790
+1993,France,,Volume in litres,Exports,Spirits,846
+1993,Germany,,Volume in litres,Imports,Wines,7079
+1993,Germany,,Volume in litres,Imports,Beer,4387
+1993,Guyana,,Volume in litres,Imports,Spirits,1597
+1993,Italy,,Volume in litres,Imports,Wines,20253
+1993,Jamaica,,Volume in litres,Imports,Spirits,1501
+1993,Japan,,Volume in litres,Exports,Spirits,4661
+1993,Mexico,,Volume in litres,Imports,Beer,6825
+1993,Netherlands,,Volume in litres,Imports,Beer,5141
+1993,Spain,,Volume in litres,Imports,Wines,7655
+1993,Sweden,,Volume in litres,Exports,Spirits,460
+1993,United Kingdom,,Volume in litres,Imports,Spirits,4320
+1993,United Kingdom,,Volume in litres,Imports,Beer,3998
+1993,United Kingdom,,Volume in litres,Exports,Spirits,3224
+1993,United States,,Volume in litres,Imports,Spirits,1416
+1993,United States,,Volume in litres,Imports,Wines,32336
+1993,United States,,Volume in litres,Imports,Beer,35839
+1993,United States,,Volume in litres,Exports,Spirits,69554
+1993,United States,,Volume in litres,Exports,Beer,263930
+1993,Other countries,,Volume in litres,Imports,Spirits,5139
+1993,Other countries,,Volume in litres,Imports,Wines,17691
+1993,Other countries,,Volume in litres,Imports,Beer,6939
+1993,Other countries,,Volume in litres,Exports,Spirits,2182
+1994,Canada,,Volume in litres,Imports,Spirits,20272
+1994,Canada,,Volume in litres,Imports,Wines,158436
+1994,Canada,,Volume in litres,Imports,Beer,55988
+1994,Canada,,Volume in litres,Exports,Spirits,77681
+1994,Canada,,Volume in litres,Exports,Wines,3299
+1994,Canada,,Volume in litres,Exports,Beer,329357
+1994,Australia,,Volume in litres,Imports,Wines,6886
+1994,Brazil,,Volume in litres,Imports,Spirits,2938
+1994,Chile,,Volume in litres,Imports,Wines,15404
+1994,France,,Volume in litres,Imports,Spirits,2382
+1994,France,,Volume in litres,Imports,Wines,52607
+1994,France,,Volume in litres,Exports,Spirits,
+1994,Germany,,Volume in litres,Imports,Wines,0
+1994,Germany,,Volume in litres,Imports,Beer,4898
+1994,Guyana,,Volume in litres,Imports,Spirits,1591
+1994,Italy,,Volume in litres,Imports,Wines,25301
+1994,Jamaica,,Volume in litres,Imports,Spirits,1671
+1994,Japan,,Volume in litres,Exports,Spirits,5071
+1994,Mexico,,Volume in litres,Imports,Beer,4628
+1994,Netherlands,,Volume in litres,Imports,Beer,5634
+1994,Spain,,Volume in litres,Imports,Wines,7690
+1994,Sweden,,Volume in litres,Exports,Spirits,0
+1994,Thailand,,Volume in litres,Exports,Spirits,1015
+1994,United Kingdom,,Volume in litres,Imports,Spirits,4670
+1994,United Kingdom,,Volume in litres,Imports,Beer,5163
+1994,United Kingdom,,Volume in litres,Exports,Spirits,2608
+1994,United States,,Volume in litres,Imports,Spirits,1715
+1994,United States,,Volume in litres,Imports,Wines,32989
+1994,United States,,Volume in litres,Imports,Beer,27134
+1994,United States,,Volume in litres,Exports,Spirits,64601
+1994,United States,,Volume in litres,Exports,Wines,2876
+1994,United States,,Volume in litres,Exports,Beer,329357
+1994,Other countries,,Volume in litres,Imports,Spirits,5305
+1994,Other countries,,Volume in litres,Imports,Wines,17559
+1994,Other countries,,Volume in litres,Imports,Beer,8531
+1994,Other countries,,Volume in litres,Exports,Spirits,4386
+1994,Other countries,,Volume in litres,Exports,Wines,423
+1995,Canada,,Volume in litres,Imports,Spirits,21204
+1995,Canada,,Volume in litres,Imports,Wines,163367
+1995,Canada,,Volume in litres,Imports,Beer,73978
+1995,Canada,,Volume in litres,Exports,Spirits,74393
+1995,Canada,,Volume in litres,Exports,Wines,3400
+1995,Canada,,Volume in litres,Exports,Beer,367194
+1995,Australia,,Volume in litres,Imports,Wines,0
+1995,Brazil,,Volume in litres,Imports,Spirits,2350
+1995,Chile,,Volume in litres,Imports,Wines,15850
+1995,France,,Volume in litres,Imports,Spirits,2058
+1995,France,,Volume in litres,Imports,Wines,55559
+1995,France,,Volume in litres,Exports,Spirits,
+1995,Germany,,Volume in litres,Imports,Wines,6624
+1995,Germany,,Volume in litres,Imports,Beer,5315
+1995,Guyana,,Volume in litres,Imports,Spirits,2008
+1995,Italy,,Volume in litres,Imports,Wines,25864
+1995,Jamaica,,Volume in litres,Imports,Spirits,0
+1995,Japan,,Volume in litres,Exports,Spirits,3036
+1995,Mexico,,Volume in litres,Imports,Beer,6590
+1995,Netherlands,,Volume in litres,Imports,Beer,6007
+1995,Spain,,Volume in litres,Imports,Wines,6384
+1995,Sweden,,Volume in litres,Exports,Spirits,0
+1995,Thailand,,Volume in litres,Exports,Spirits,976
+1995,United Kingdom,,Volume in litres,Imports,Spirits,4849
+1995,United Kingdom,,Volume in litres,Imports,Beer,4781
+1995,United Kingdom,,Volume in litres,Exports,Spirits,2537
+1995,United States,,Volume in litres,Imports,Spirits,1569
+1995,United States,,Volume in litres,Imports,Wines,32013
+1995,United States,,Volume in litres,Imports,Beer,39548
+1995,United States,,Volume in litres,Exports,Spirits,63330
+1995,United States,,Volume in litres,Exports,Wines,2797
+1995,United States,,Volume in litres,Exports,Beer,367194
+1995,Other countries,,Volume in litres,Imports,Spirits,8370
+1995,Other countries,,Volume in litres,Imports,Wines,21073
+1995,Other countries,,Volume in litres,Imports,Beer,11737
+1995,Other countries,,Volume in litres,Exports,Spirits,4514
+1995,Other countries,,Volume in litres,Exports,Wines,603
+1996,Canada,,Volume in litres,Imports,Spirits,22894
+1996,Canada,,Volume in litres,Imports,Wines,163808
+1996,Canada,,Volume in litres,Imports,Beer,84897
+1996,Canada,,Volume in litres,Exports,Spirits,71330
+1996,Canada,,Volume in litres,Exports,Wines,4967
+1996,Canada,,Volume in litres,Exports,Beer,357314
+1996,Australia,,Volume in litres,Imports,Wines,0
+1996,Brazil,,Volume in litres,Imports,Spirits,4319
+1996,Chile,,Volume in litres,Imports,Wines,23936
+1996,France,,Volume in litres,Imports,Spirits,2763
+1996,France,,Volume in litres,Imports,Wines,53177
+1996,France,,Volume in litres,Exports,Spirits,
+1996,Germany,,Volume in litres,Imports,Wines,6008
+1996,Germany,,Volume in litres,Imports,Beer,5908
+1996,Guyana,,Volume in litres,Imports,Spirits,2540
+1996,Italy,,Volume in litres,Imports,Wines,27034
+1996,Jamaica,,Volume in litres,Imports,Spirits,0
+1996,Japan,,Volume in litres,Exports,Spirits,2119
+1996,Mexico,,Volume in litres,Imports,Beer,10027
+1996,Netherlands,,Volume in litres,Imports,Beer,7152
+1996,Spain,,Volume in litres,Imports,Wines,5652
+1996,Sweden,,Volume in litres,Exports,Spirits,0
+1996,Taiwan,,Volume in litres,Exports,Wines,0
+1996,Thailand,,Volume in litres,Exports,Spirits,1058
+1996,United Kingdom,,Volume in litres,Imports,Spirits,4442
+1996,United Kingdom,,Volume in litres,Imports,Beer,5671
+1996,United Kingdom,,Volume in litres,Exports,Spirits,1134
+1996,United States,,Volume in litres,Imports,Spirits,2303
+1996,United States,,Volume in litres,Imports,Wines,29511
+1996,United States,,Volume in litres,Imports,Beer,43202
+1996,United States,,Volume in litres,Exports,Spirits,61919
+1996,United States,,Volume in litres,Exports,Wines,859
+1996,United States,,Volume in litres,Exports,Beer,357314
+1996,Other countries,,Volume in litres,Imports,Spirits,6527
+1996,Other countries,,Volume in litres,Imports,Wines,18490
+1996,Other countries,,Volume in litres,Imports,Beer,12937
+1996,Other countries,,Volume in litres,Exports,Spirits,5100
+1996,Other countries,,Volume in litres,Exports,Wines,4108
+1997,Canada,,Volume in litres,Imports,Spirits,16272
+1997,Canada,,Volume in litres,Imports,Wines,172647
+1997,Canada,,Volume in litres,Imports,Beer,96665
+1997,Canada,,Volume in litres,Exports,Spirits,69335
+1997,Canada,,Volume in litres,Exports,Wines,2623
+1997,Canada,,Volume in litres,Exports,Beer,350139
+1997,Australia,,Volume in litres,Imports,Wines,6920
+1997,Brazil,,Volume in litres,Imports,Spirits,
+1997,Chile,,Volume in litres,Imports,Wines,26221
+1997,France,,Volume in litres,Imports,Spirits,1523
+1997,France,,Volume in litres,Imports,Wines,49498
+1997,France,,Volume in litres,Exports,Spirits,
+1997,Germany,,Volume in litres,Imports,Wines,4670
+1997,Germany,,Volume in litres,Imports,Beer,6287
+1997,Guyana,,Volume in litres,Imports,Spirits,0
+1997,Ireland,,Volume in litres,Imports,Spirits,991
+1997,Italy,,Volume in litres,Imports,Wines,28324
+1997,Jamaica,,Volume in litres,Imports,Spirits,1521
+1997,Japan,,Volume in litres,Exports,Spirits,2414
+1997,Mexico,,Volume in litres,Imports,Beer,10944
+1997,Netherlands,,Volume in litres,Imports,Beer,7704
+1997,Spain,,Volume in litres,Imports,Wines,0
+1997,Sweden,,Volume in litres,Exports,Spirits,1056
+1997,Taiwan,,Volume in litres,Exports,Wines,349
+1997,Thailand,,Volume in litres,Exports,Spirits,
+1997,United Kingdom,,Volume in litres,Imports,Spirits,4329
+1997,United Kingdom,,Volume in litres,Imports,Beer,6818
+1997,United Kingdom,,Volume in litres,Exports,Spirits,1953
+1997,United States,,Volume in litres,Imports,Spirits,3134
+1997,United States,,Volume in litres,Imports,Wines,33721
+1997,United States,,Volume in litres,Imports,Beer,53037
+1997,United States,,Volume in litres,Exports,Spirits,58822
+1997,United States,,Volume in litres,Exports,Wines,981
+1997,United States,,Volume in litres,Exports,Beer,350139
+1997,Other countries,,Volume in litres,Imports,Spirits,4774
+1997,Other countries,,Volume in litres,Imports,Wines,23293
+1997,Other countries,,Volume in litres,Imports,Beer,11875
+1997,Other countries,,Volume in litres,Exports,Spirits,5090
+1997,Other countries,,Volume in litres,Exports,Wines,1293
+1998,Canada,,Volume in litres,Imports,Spirits,21668
+1998,Canada,,Volume in litres,Imports,Wines,191136
+1998,Canada,,Volume in litres,Imports,Beer,114247
+1998,Canada,,Volume in litres,Exports,Spirits,65647
+1998,Canada,,Volume in litres,Exports,Wines,3693
+1998,Canada,,Volume in litres,Exports,Beer,360095
+1998,Australia,,Volume in litres,Imports,Wines,7515
+1998,Brazil,,Volume in litres,Imports,Spirits,
+1998,Chile,,Volume in litres,Imports,Wines,29962
+1998,France,,Volume in litres,Imports,Spirits,1694
+1998,France,,Volume in litres,Imports,Wines,59815
+1998,France,,Volume in litres,Exports,Spirits,
+1998,Germany,,Volume in litres,Imports,Wines,4919
+1998,Germany,,Volume in litres,Imports,Beer,0
+1998,Guyana,,Volume in litres,Imports,Spirits,2099
+1998,Ireland,,Volume in litres,Imports,Spirits,0
+1998,Ireland,,Volume in litres,Imports,Beer,7470
+1998,Italy,,Volume in litres,Imports,Wines,28847
+1998,Jamaica,,Volume in litres,Imports,Spirits,0
+1998,Japan,,Volume in litres,Exports,Spirits,1240
+1998,Mexico,,Volume in litres,Imports,Spirits,2529
+1998,Mexico,,Volume in litres,Imports,Beer,17359
+1998,Netherlands,,Volume in litres,Imports,Beer,9790
+1998,South Africa,,Volume in litres,Exports,Spirits,1245
+1998,Spain,,Volume in litres,Imports,Wines,0
+1998,Sweden,,Volume in litres,Exports,Spirits,1097
+1998,Taiwan,,Volume in litres,Exports,Wines,889
+1998,Thailand,,Volume in litres,Exports,Spirits,
+1998,United Kingdom,,Volume in litres,Imports,Spirits,4776
+1998,United Kingdom,,Volume in litres,Imports,Beer,8935
+1998,United Kingdom,,Volume in litres,Exports,Spirits,0
+1998,United States,,Volume in litres,Imports,Spirits,5903
+1998,United States,,Volume in litres,Imports,Wines,33691
+1998,United States,,Volume in litres,Imports,Beer,57050
+1998,United States,,Volume in litres,Exports,Spirits,56812
+1998,United States,,Volume in litres,Exports,Wines,1717
+1998,United States,,Volume in litres,Exports,Beer,360095
+1998,Other countries,,Volume in litres,Imports,Spirits,4667
+1998,Other countries,,Volume in litres,Imports,Wines,26387
+1998,Other countries,,Volume in litres,Imports,Beer,13643
+1998,Other countries,,Volume in litres,Exports,Spirits,5253
+1998,Other countries,,Volume in litres,Exports,Wines,1087
+1999,Canada,,Volume in litres,Imports,Spirits,23507
+1999,Canada,,Volume in litres,Imports,Wines,214219
+1999,Canada,,Volume in litres,Imports,Beer,131851
+1999,Canada,,Volume in litres,Exports,Spirits,66267
+1999,Canada,,Volume in litres,Exports,Wines,3974
+1999,Canada,,Volume in litres,Exports,Beer,356744
+1999,Australia,,Volume in litres,Imports,Wines,9065
+1999,Belgium,,Volume in litres,Exports,Spirits,1328
+1999,Brazil,,Volume in litres,Imports,Spirits,
+1999,Chile,,Volume in litres,Imports,Wines,23938
+1999,France,,Volume in litres,Imports,Spirits,1982
+1999,France,,Volume in litres,Imports,Wines,68975
+1999,France,,Volume in litres,Exports,Spirits,
+1999,Germany,,Volume in litres,Imports,Wines,0
+1999,Germany,,Volume in litres,Imports,Beer,0
+1999,Guyana,,Volume in litres,Imports,Spirits,
+1999,Ireland,,Volume in litres,Imports,Spirits,0
+1999,Ireland,,Volume in litres,Imports,Beer,9667
+1999,Italy,,Volume in litres,Imports,Wines,35921
+1999,Jamaica,,Volume in litres,Imports,Spirits,2284
+1999,Japan,,Volume in litres,Exports,Spirits,3456
+1999,Mexico,,Volume in litres,Imports,Spirits,1424
+1999,Mexico,,Volume in litres,Imports,Beer,19753
+1999,Netherlands,,Volume in litres,Imports,Beer,14326
+1999,South Africa,,Volume in litres,Exports,Spirits,
+1999,Spain,,Volume in litres,Imports,Wines,6348
+1999,Sweden,,Volume in litres,Exports,Spirits,1478
+1999,Taiwan,,Volume in litres,Exports,Wines,404
+1999,Thailand,,Volume in litres,Exports,Spirits,
+1999,United Kingdom,,Volume in litres,Imports,Spirits,5073
+1999,United Kingdom,,Volume in litres,Imports,Beer,11654
+1999,United Kingdom,,Volume in litres,Exports,Spirits,0
+1999,United States,,Volume in litres,Imports,Spirits,6192
+1999,United States,,Volume in litres,Imports,Wines,41757
+1999,United States,,Volume in litres,Imports,Beer,60218
+1999,United States,,Volume in litres,Exports,Spirits,56018
+1999,United States,,Volume in litres,Exports,Wines,2672
+1999,United States,,Volume in litres,Exports,Beer,356744
+1999,Other countries,,Volume in litres,Imports,Spirits,6554
+1999,Other countries,,Volume in litres,Imports,Wines,28215
+1999,Other countries,,Volume in litres,Imports,Beer,16232
+1999,Other countries,,Volume in litres,Exports,Spirits,3986
+1999,Other countries,,Volume in litres,Exports,Wines,899
+2000,Canada,,Volume in litres,Imports,Spirits,27067
+2000,Canada,,Volume in litres,Imports,Wines,224529
+2000,Canada,,Volume in litres,Imports,Beer,159816
+2000,Canada,,Volume in litres,Exports,Spirits,72661
+2000,Canada,,Volume in litres,Exports,Wines,17729
+2000,Canada,,Volume in litres,Exports,Beer,365690
+2000,Australia,,Volume in litres,Imports,Wines,1453
+2000,Belgium,,Volume in litres,Exports,Spirits,
+2000,Brazil,,Volume in litres,Imports,Spirits,
+2000,Chile,,Volume in litres,Imports,Wines,23389
+2000,France,,Volume in litres,Imports,Spirits,1778
+2000,France,,Volume in litres,Imports,Wines,71527
+2000,France,,Volume in litres,Exports,Spirits,
+2000,Germany,,Volume in litres,Imports,Wines,4927
+2000,Germany,,Volume in litres,Imports,Beer,8114
+2000,Guyana,,Volume in litres,Imports,Spirits,
+2000,Ireland,,Volume in litres,Imports,Spirits,1107
+2000,Ireland,,Volume in litres,Imports,Beer,
+2000,Italy,,Volume in litres,Imports,Wines,39194
+2000,Jamaica,,Volume in litres,Imports,Spirits,2031
+2000,Japan,,Volume in litres,Exports,Spirits,4924
+2000,Mexico,,Volume in litres,Imports,Spirits,
+2000,Mexico,,Volume in litres,Imports,Beer,33000
+2000,Netherlands,,Volume in litres,Imports,Beer,19825
+2000,South Africa,,Volume in litres,Exports,Spirits,
+2000,Spain,,Volume in litres,Imports,Wines,
+2000,Sweden,,Volume in litres,Exports,Spirits,1018
+2000,Taiwan,,Volume in litres,Exports,Wines,239
+2000,Thailand,,Volume in litres,Exports,Spirits,
+2000,United Kingdom,,Volume in litres,Imports,Spirits,5243
+2000,United Kingdom,,Volume in litres,Imports,Beer,12432
+2000,United Kingdom,,Volume in litres,Exports,Spirits,1238
+2000,United States,,Volume in litres,Imports,Spirits,7797
+2000,United States,,Volume in litres,Imports,Wines,41586
+2000,United States,,Volume in litres,Imports,Beer,62908
+2000,United States,,Volume in litres,Exports,Spirits,60955
+2000,United States,,Volume in litres,Exports,Wines,16416
+2000,United States,,Volume in litres,Exports,Beer,365690
+2000,Other countries,,Volume in litres,Imports,Spirits,9111
+2000,Other countries,,Volume in litres,Imports,Wines,42453
+2000,Other countries,,Volume in litres,Imports,Beer,23537
+2000,Other countries,,Volume in litres,Exports,Spirits,4526
+2000,Other countries,,Volume in litres,Exports,Wines,1074
+2001,Canada,,Volume in litres,Imports,Spirits,28951
+2001,Canada,,Volume in litres,Imports,Wines,248578
+2001,Canada,,Volume in litres,Imports,Beer,164876
+2001,Canada,,Volume in litres,Exports,Spirits,65397
+2001,Canada,,Volume in litres,Exports,Wines,24101
+2001,Canada,,Volume in litres,Exports,Beer,413855
+2001,Australia,,Volume in litres,Imports,Wines,16951
+2001,Belgium,,Volume in litres,Exports,Spirits,
+2001,Brazil,,Volume in litres,Imports,Spirits,
+2001,Chile,,Volume in litres,Imports,Wines,28957
+2001,France,,Volume in litres,Imports,Spirits,2194
+2001,France,,Volume in litres,Imports,Wines,73055
+2001,France,,Volume in litres,Exports,Spirits,
+2001,Germany,,Volume in litres,Imports,Wines,4766
+2001,Germany,,Volume in litres,Imports,Beer,10364
+2001,Guyana,,Volume in litres,Imports,Spirits,
+2001,Ireland,,Volume in litres,Imports,Spirits,1467
+2001,Ireland,,Volume in litres,Imports,Beer,
+2001,Italy,,Volume in litres,Imports,Wines,46372
+2001,Jamaica,,Volume in litres,Imports,Spirits,2809
+2001,Japan,,Volume in litres,Exports,Spirits,2189
+2001,Mexico,,Volume in litres,Imports,Spirits,
+2001,Mexico,,Volume in litres,Imports,Beer,33965
+2001,Netherlands,,Volume in litres,Imports,Beer,27863
+2001,South Africa,,Volume in litres,Exports,Spirits,
+2001,Spain,,Volume in litres,Imports,Wines,
+2001,Sweden,,Volume in litres,Exports,Spirits,963
+2001,Taiwan,,Volume in litres,Exports,Wines,381
+2001,Thailand,,Volume in litres,Exports,Spirits,
+2001,United Kingdom,,Volume in litres,Imports,Spirits,5547
+2001,United Kingdom,,Volume in litres,Imports,Beer,12630
+2001,United Kingdom,,Volume in litres,Exports,Spirits,1253
+2001,United States,,Volume in litres,Imports,Spirits,7515
+2001,United States,,Volume in litres,Imports,Wines,42908
+2001,United States,,Volume in litres,Imports,Beer,52183
+2001,United States,,Volume in litres,Exports,Spirits,57403
+2001,United States,,Volume in litres,Exports,Wines,21553
+2001,United States,,Volume in litres,Exports,Beer,413855
+2001,Other countries,,Volume in litres,Imports,Spirits,9419
+2001,Other countries,,Volume in litres,Imports,Wines,35569
+2001,Other countries,,Volume in litres,Imports,Beer,27871
+2001,Other countries,,Volume in litres,Exports,Spirits,3589
+2001,Other countries,,Volume in litres,Exports,Wines,2167
+2002,Canada,,Volume in litres,Imports,Spirits,30626
+2002,Canada,,Volume in litres,Imports,Wines,249247
+2002,Canada,,Volume in litres,Imports,Beer,178643
+2002,Canada,,Volume in litres,Exports,Spirits,62522
+2002,Canada,,Volume in litres,Exports,Wines,43913
+2002,Canada,,Volume in litres,Exports,Beer,415748
+2002,Australia,,Volume in litres,Imports,Wines,20123
+2002,Belgium,,Volume in litres,Exports,Spirits,
+2002,Brazil,,Volume in litres,Imports,Spirits,
+2002,Chile,,Volume in litres,Imports,Wines,28597
+2002,France,,Volume in litres,Imports,Spirits,1935
+2002,France,,Volume in litres,Imports,Wines,74701
+2002,France,,Volume in litres,Exports,Spirits,
+2002,Germany,,Volume in litres,Imports,Wines,4773
+2002,Germany,,Volume in litres,Imports,Beer,13085
+2002,Guyana,,Volume in litres,Imports,Spirits,
+2002,Ireland,,Volume in litres,Imports,Spirits,961
+2002,Ireland,,Volume in litres,Imports,Beer,
+2002,Italy,,Volume in litres,Imports,Wines,46519
+2002,Jamaica,,Volume in litres,Imports,Spirits,1733
+2002,Japan,,Volume in litres,Exports,Spirits,2107
+2002,Mexico,,Volume in litres,Imports,Spirits,
+2002,Mexico,,Volume in litres,Imports,Beer,39436
+2002,Netherlands,,Volume in litres,Imports,Beer,35521
+2002,South Africa,,Volume in litres,Exports,Spirits,
+2002,Spain,,Volume in litres,Imports,Wines,
+2002,Sweden,,Volume in litres,Exports,Spirits,574
+2002,Taiwan,,Volume in litres,Exports,Wines,788
+2002,Thailand,,Volume in litres,Exports,Spirits,
+2002,United Kingdom,,Volume in litres,Imports,Spirits,5533
+2002,United Kingdom,,Volume in litres,Imports,Beer,12925
+2002,United Kingdom,,Volume in litres,Exports,Spirits,605
+2002,United States,,Volume in litres,Imports,Spirits,10715
+2002,United States,,Volume in litres,Imports,Wines,39838
+2002,United States,,Volume in litres,Imports,Beer,44183
+2002,United States,,Volume in litres,Exports,Spirits,54928
+2002,United States,,Volume in litres,Exports,Wines,41024
+2002,United States,,Volume in litres,Exports,Beer,415748
+2002,Other countries,,Volume in litres,Imports,Spirits,9749
+2002,Other countries,,Volume in litres,Imports,Wines,34696
+2002,Other countries,,Volume in litres,Imports,Beer,33493
+2002,Other countries,,Volume in litres,Exports,Spirits,4308
+2002,Other countries,,Volume in litres,Exports,Wines,2101
+2003,Canada,,Volume in litres,Imports,Spirits,31472
+2003,Canada,,Volume in litres,Imports,Wines,202250
+2003,Canada,,Volume in litres,Imports,Beer,205980
+2003,Canada,,Volume in litres,Exports,Spirits,64712
+2003,Canada,,Volume in litres,Exports,Wines,38222
+2003,Canada,,Volume in litres,Exports,Beer,394746
+2003,Australia,,Volume in litres,Imports,Wines,20248
+2003,Belgium,,Volume in litres,Exports,Spirits,
+2003,Brazil,,Volume in litres,Imports,Spirits,
+2003,Chile,,Volume in litres,Imports,Wines,22177
+2003,France,,Volume in litres,Imports,Spirits,2243
+2003,France,,Volume in litres,Imports,Wines,55128
+2003,France,,Volume in litres,Exports,Spirits,
+2003,Germany,,Volume in litres,Imports,Wines,4188
+2003,Germany,,Volume in litres,Imports,Beer,15479
+2003,Guyana,,Volume in litres,Imports,Spirits,
+2003,Ireland,,Volume in litres,Imports,Spirits,359
+2003,Ireland,,Volume in litres,Imports,Beer,
+2003,Italy,,Volume in litres,Imports,Wines,40337
+2003,Jamaica,,Volume in litres,Imports,Spirits,1742
+2003,Japan,,Volume in litres,Exports,Spirits,3245
+2003,Mexico,,Volume in litres,Imports,Spirits,
+2003,Mexico,,Volume in litres,Imports,Beer,45154
+2003,Netherlands,,Volume in litres,Imports,Beer,44410
+2003,South Africa,,Volume in litres,Exports,Spirits,
+2003,Spain,,Volume in litres,Imports,Wines,
+2003,Sweden,,Volume in litres,Exports,Spirits,532
+2003,Taiwan,,Volume in litres,Exports,Wines,514
+2003,Thailand,,Volume in litres,Exports,Spirits,
+2003,United Kingdom,,Volume in litres,Imports,Spirits,5590
+2003,United Kingdom,,Volume in litres,Imports,Beer,13202
+2003,United Kingdom,,Volume in litres,Exports,Spirits,514
+2003,United States,,Volume in litres,Imports,Spirits,9979
+2003,United States,,Volume in litres,Imports,Wines,31837
+2003,United States,,Volume in litres,Imports,Beer,46942
+2003,United States,,Volume in litres,Exports,Spirits,56064
+2003,United States,,Volume in litres,Exports,Wines,35798
+2003,United States,,Volume in litres,Exports,Beer,394746
+2003,Other countries,,Volume in litres,Imports,Spirits,11559
+2003,Other countries,,Volume in litres,Imports,Wines,28336
+2003,Other countries,,Volume in litres,Imports,Beer,40793
+2003,Other countries,,Volume in litres,Exports,Spirits,4356
+2003,Other countries,,Volume in litres,Exports,Wines,1911
+2004,Canada,,Volume in litres,Imports,Spirits,33148
+2004,Canada,,Volume in litres,Imports,Wines,284979
+2004,Canada,,Volume in litres,Imports,Beer,219847
+2004,Canada,,Volume in litres,Exports,Spirits,66703
+2004,Canada,,Volume in litres,Exports,Wines,19440
+2004,Canada,,Volume in litres,Exports,Beer,391127
+2004,Australia,,Volume in litres,Imports,Wines,33134
+2004,Belgium,,Volume in litres,Exports,Spirits,
+2004,Brazil,,Volume in litres,Imports,Spirits,
+2004,Chile,,Volume in litres,Imports,Wines,29765
+2004,France,,Volume in litres,Imports,Spirits,1679
+2004,France,,Volume in litres,Imports,Wines,73957
+2004,France,,Volume in litres,Exports,Spirits,
+2004,Germany,,Volume in litres,Imports,Wines,6079
+2004,Germany,,Volume in litres,Imports,Beer,17078
+2004,Guyana,,Volume in litres,Imports,Spirits,
+2004,Ireland,,Volume in litres,Imports,Spirits,459
+2004,Ireland,,Volume in litres,Imports,Beer,
+2004,Italy,,Volume in litres,Imports,Wines,53378
+2004,Jamaica,,Volume in litres,Imports,Spirits,1840
+2004,Japan,,Volume in litres,Exports,Spirits,714
+2004,Mexico,,Volume in litres,Imports,Spirits,
+2004,Mexico,,Volume in litres,Imports,Beer,43638
+2004,Netherlands,,Volume in litres,Imports,Beer,45320
+2004,South Africa,,Volume in litres,Exports,Spirits,
+2004,Spain,,Volume in litres,Imports,Wines,
+2004,Sweden,,Volume in litres,Exports,Spirits,356
+2004,Taiwan,,Volume in litres,Exports,Wines,917
+2004,Thailand,,Volume in litres,Exports,Spirits,
+2004,United Kingdom,,Volume in litres,Imports,Spirits,7130
+2004,United Kingdom,,Volume in litres,Imports,Beer,15356
+2004,United Kingdom,,Volume in litres,Exports,Spirits,376
+2004,United States,,Volume in litres,Imports,Spirits,10369
+2004,United States,,Volume in litres,Imports,Wines,44900
+2004,United States,,Volume in litres,Imports,Beer,47195
+2004,United States,,Volume in litres,Exports,Spirits,61950
+2004,United States,,Volume in litres,Exports,Wines,16586
+2004,United States,,Volume in litres,Exports,Beer,391127
+2004,Other countries,,Volume in litres,Imports,Spirits,11671
+2004,Other countries,,Volume in litres,Imports,Wines,43766
+2004,Other countries,,Volume in litres,Imports,Beer,51260
+2004,Other countries,,Volume in litres,Exports,Spirits,3307
+2004,Other countries,,Volume in litres,Exports,Wines,1937
+2005,Canada,,Volume in litres,Imports,Spirits,34180
+2005,Canada,,Volume in litres,Imports,Wines,261147
+2005,Canada,,Volume in litres,Imports,Beer,232100
+2005,Canada,,Volume in litres,Exports,Spirits,74395
+2005,Canada,,Volume in litres,Exports,Wines,12958
+2005,Canada,,Volume in litres,Exports,Beer,354906
+2005,Australia,,Volume in litres,Imports,Wines,40466
+2005,Belgium,,Volume in litres,Exports,Spirits,767
+2005,Brazil,,Volume in litres,Imports,Spirits,
+2005,Chile,,Volume in litres,Imports,Wines,30050
+2005,France,,Volume in litres,Imports,Spirits,1778
+2005,France,,Volume in litres,Imports,Wines,58933
+2005,France,,Volume in litres,Exports,Spirits,86
+2005,Germany,,Volume in litres,Imports,Wines,5634
+2005,Germany,,Volume in litres,Imports,Beer,17043
+2005,Guyana,,Volume in litres,Imports,Spirits,1746
+2005,Ireland,,Volume in litres,Imports,Spirits,256
+2005,Ireland,,Volume in litres,Imports,Beer,9545
+2005,Italy,,Volume in litres,Imports,Wines,45386
+2005,Jamaica,,Volume in litres,Imports,Spirits,4563
+2005,Japan,,Volume in litres,Exports,Spirits,602
+2005,Mexico,,Volume in litres,Imports,Spirits,1
+2005,Mexico,,Volume in litres,Imports,Beer,47164
+2005,Netherlands,,Volume in litres,Imports,Beer,44846
+2005,South Africa,,Volume in litres,Exports,Spirits,137
+2005,Spain,,Volume in litres,Imports,Wines,13461
+2005,Sweden,,Volume in litres,Exports,Spirits,223
+2005,Taiwan,,Volume in litres,Exports,Wines,222
+2005,Thailand,,Volume in litres,Exports,Spirits,
+2005,United Kingdom,,Volume in litres,Imports,Spirits,5030
+2005,United Kingdom,,Volume in litres,Imports,Beer,12852
+2005,United Kingdom,,Volume in litres,Exports,Spirits,292
+2005,United States,,Volume in litres,Imports,Spirits,12025
+2005,United States,,Volume in litres,Imports,Wines,39710
+2005,United States,,Volume in litres,Imports,Beer,54654
+2005,United States,,Volume in litres,Exports,Spirits,70620
+2005,United States,,Volume in litres,Exports,Wines,11761
+2005,United States,,Volume in litres,Exports,Beer,354906
+2005,Other countries,,Volume in litres,Imports,Spirits,8781
+2005,Other countries,,Volume in litres,Imports,Wines,27508
+2005,Other countries,,Volume in litres,Imports,Beer,45996
+2005,Other countries,,Volume in litres,Exports,Spirits,1667
+2005,Other countries,,Volume in litres,Exports,Wines,976
+2006,Canada,,Volume in litres,Imports,Spirits,51892
+2006,Canada,,Volume in litres,Imports,Wines,287680
+2006,Canada,,Volume in litres,Imports,Beer,256242
+2006,Canada,,Volume in litres,Exports,Spirits,69173
+2006,Canada,,Volume in litres,Exports,Wines,16008
+2006,Canada,,Volume in litres,Exports,Beer,360904
+2006,Australia,,Volume in litres,Imports,Wines,52280
+2006,Belgium,,Volume in litres,Exports,Spirits,868
+2006,Brazil,,Volume in litres,Imports,Spirits,0
+2006,Chile,,Volume in litres,Imports,Wines,24224
+2006,France,,Volume in litres,Imports,Spirits,1957
+2006,France,,Volume in litres,Imports,Wines,62705
+2006,France,,Volume in litres,Exports,Spirits,53
+2006,Germany,,Volume in litres,Imports,Wines,5359
+2006,Germany,,Volume in litres,Imports,Beer,18734
+2006,Guyana,,Volume in litres,Imports,Spirits,2680
+2006,Ireland,,Volume in litres,Imports,Spirits,149
+2006,Ireland,,Volume in litres,Imports,Beer,11535
+2006,Italy,,Volume in litres,Imports,Wines,45689
+2006,Jamaica,,Volume in litres,Imports,Spirits,5836
+2006,Japan,,Volume in litres,Exports,Spirits,336
+2006,Mexico,,Volume in litres,Imports,Spirits,2
+2006,Mexico,,Volume in litres,Imports,Beer,52324
+2006,Netherlands,,Volume in litres,Imports,Beer,46820
+2006,South Africa,,Volume in litres,Exports,Spirits,0
+2006,Spain,,Volume in litres,Imports,Wines,19347
+2006,Sweden,,Volume in litres,Exports,Spirits,248
+2006,Taiwan,,Volume in litres,Exports,Wines,106
+2006,Thailand,,Volume in litres,Exports,Spirits,0
+2006,United Kingdom,,Volume in litres,Imports,Spirits,4859
+2006,United Kingdom,,Volume in litres,Imports,Beer,11254
+2006,United Kingdom,,Volume in litres,Exports,Spirits,242
+2006,United States,,Volume in litres,Imports,Spirits,26961
+2006,United States,,Volume in litres,Imports,Wines,36065
+2006,United States,,Volume in litres,Imports,Beer,58984
+2006,United States,,Volume in litres,Exports,Spirits,65721
+2006,United States,,Volume in litres,Exports,Wines,15116
+2006,United States,,Volume in litres,Exports,Beer,360904
+2006,Other countries,,Volume in litres,Imports,Spirits,9448
+2006,Other countries,,Volume in litres,Imports,Wines,42011
+2006,Other countries,,Volume in litres,Imports,Beer,56590
+2006,Other countries,,Volume in litres,Exports,Spirits,1705
+2006,Other countries,,Volume in litres,Exports,Wines,786
+2007,Canada,,Volume in litres,Imports,Spirits,52605
+2007,Canada,,Volume in litres,Imports,Wines,305380
+2007,Canada,,Volume in litres,Imports,Beer,271898
+2007,Canada,,Volume in litres,Exports,Spirits,71949
+2007,Canada,,Volume in litres,Exports,Wines,7183
+2007,Canada,,Volume in litres,Exports,Beer,396657
+2007,Australia,,Volume in litres,Imports,Wines,52426
+2007,Belgium,,Volume in litres,Exports,Spirits,2466
+2007,Brazil,,Volume in litres,Imports,Spirits,2
+2007,Chile,,Volume in litres,Imports,Wines,26027
+2007,France,,Volume in litres,Imports,Spirits,2133
+2007,France,,Volume in litres,Imports,Wines,62366
+2007,France,,Volume in litres,Exports,Spirits,58
+2007,Germany,,Volume in litres,Imports,Wines,5975
+2007,Germany,,Volume in litres,Imports,Beer,18613
+2007,Guyana,,Volume in litres,Imports,Spirits,3116
+2007,Ireland,,Volume in litres,Imports,Spirits,160
+2007,Ireland,,Volume in litres,Imports,Beer,13313
+2007,Italy,,Volume in litres,Imports,Wines,52915
+2007,Jamaica,,Volume in litres,Imports,Spirits,5396
+2007,Japan,,Volume in litres,Exports,Spirits,319
+2007,Mexico,,Volume in litres,Imports,Spirits,1
+2007,Mexico,,Volume in litres,Imports,Beer,57746
+2007,Netherlands,,Volume in litres,Imports,Beer,50988
+2007,South Africa,,Volume in litres,Exports,Spirits,0
+2007,Spain,,Volume in litres,Imports,Wines,21654
+2007,Sweden,,Volume in litres,Exports,Spirits,319
+2007,Taiwan,,Volume in litres,Exports,Wines,135
+2007,Thailand,,Volume in litres,Exports,Spirits,0
+2007,United Kingdom,,Volume in litres,Imports,Spirits,5030
+2007,United Kingdom,,Volume in litres,Imports,Beer,10763
+2007,United Kingdom,,Volume in litres,Exports,Spirits,198
+2007,United States,,Volume in litres,Imports,Spirits,26689
+2007,United States,,Volume in litres,Imports,Wines,40861
+2007,United States,,Volume in litres,Imports,Beer,59612
+2007,United States,,Volume in litres,Exports,Spirits,66118
+2007,United States,,Volume in litres,Exports,Wines,6306
+2007,United States,,Volume in litres,Exports,Beer,396657
+2007,Other countries,,Volume in litres,Imports,Spirits,10080
+2007,Other countries,,Volume in litres,Imports,Wines,43155
+2007,Other countries,,Volume in litres,Imports,Beer,60863
+2007,Other countries,,Volume in litres,Exports,Spirits,2471
+2007,Other countries,,Volume in litres,Exports,Wines,742
+2008,Canada,,Volume in litres,Imports,Spirits,41225
+2008,Canada,,Volume in litres,Imports,Wines,320023
+2008,Canada,,Volume in litres,Imports,Beer,295490
+2008,Canada,,Volume in litres,Exports,Spirits,119472
+2008,Canada,,Volume in litres,Exports,Wines,7754
+2008,Canada,,Volume in litres,Exports,Beer,398392
+2008,Australia,,Volume in litres,Imports,Wines,51757
+2008,Belgium,,Volume in litres,Exports,Spirits,714
+2008,Brazil,,Volume in litres,Imports,Spirits,2
+2008,Chile,,Volume in litres,Imports,Wines,29887
+2008,France,,Volume in litres,Imports,Spirits,2155
+2008,France,,Volume in litres,Imports,Wines,60112
+2008,France,,Volume in litres,Exports,Spirits,106
+2008,Germany,,Volume in litres,Imports,Wines,6241
+2008,Germany,,Volume in litres,Imports,Beer,19683
+2008,Guyana,,Volume in litres,Imports,Spirits,2352
+2008,Ireland,,Volume in litres,Imports,Spirits,204
+2008,Ireland,,Volume in litres,Imports,Beer,13453
+2008,Italy,,Volume in litres,Imports,Wines,56913
+2008,Jamaica,,Volume in litres,Imports,Spirits,3515
+2008,Japan,,Volume in litres,Exports,Spirits,1130
+2008,Mexico,,Volume in litres,Imports,Spirits,2
+2008,Mexico,,Volume in litres,Imports,Beer,66640
+2008,Netherlands,,Volume in litres,Imports,Beer,57656
+2008,South Africa,,Volume in litres,Exports,Spirits,0
+2008,Spain,,Volume in litres,Imports,Wines,20242
+2008,Sweden,,Volume in litres,Exports,Spirits,619
+2008,Taiwan,,Volume in litres,Exports,Wines,64
+2008,Thailand,,Volume in litres,Exports,Spirits,0
+2008,United Kingdom,,Volume in litres,Imports,Spirits,5111
+2008,United Kingdom,,Volume in litres,Imports,Beer,10552
+2008,United Kingdom,,Volume in litres,Exports,Spirits,141
+2008,United States,,Volume in litres,Imports,Spirits,17016
+2008,United States,,Volume in litres,Imports,Wines,44779
+2008,United States,,Volume in litres,Imports,Beer,58311
+2008,United States,,Volume in litres,Exports,Spirits,115477
+2008,United States,,Volume in litres,Exports,Wines,6736
+2008,United States,,Volume in litres,Exports,Beer,398392
+2008,Other countries,,Volume in litres,Imports,Spirits,10867
+2008,Other countries,,Volume in litres,Imports,Wines,50093
+2008,Other countries,,Volume in litres,Imports,Beer,69195
+2008,Other countries,,Volume in litres,Exports,Spirits,1284
+2008,Other countries,,Volume in litres,Exports,Wines,953
+2009,Canada,,Volume in litres,Imports,Spirits,37743
+2009,Canada,,Volume in litres,Imports,Wines,317662
+2009,Canada,,Volume in litres,Imports,Beer,326939
+2009,Canada,,Volume in litres,Exports,Spirits,123888
+2009,Canada,,Volume in litres,Exports,Wines,12054
+2009,Canada,,Volume in litres,Exports,Beer,343756
+2009,Australia,,Volume in litres,Imports,Wines,44169
+2009,Belgium,,Volume in litres,Exports,Spirits,619
+2009,Brazil,,Volume in litres,Imports,Spirits,11
+2009,Chile,,Volume in litres,Imports,Wines,31276
+2009,France,,Volume in litres,Imports,Spirits,2419
+2009,France,,Volume in litres,Imports,Wines,58123
+2009,France,,Volume in litres,Exports,Spirits,145
+2009,Germany,,Volume in litres,Imports,Wines,6986
+2009,Germany,,Volume in litres,Imports,Beer,21647
+2009,Guyana,,Volume in litres,Imports,Spirits,2584
+2009,Ireland,,Volume in litres,Imports,Spirits,210
+2009,Ireland,,Volume in litres,Imports,Beer,14420
+2009,Italy,,Volume in litres,Imports,Wines,55916
+2009,Jamaica,,Volume in litres,Imports,Spirits,5919
+2009,Japan,,Volume in litres,Exports,Spirits,932
+2009,Mexico,,Volume in litres,Imports,Spirits,1
+2009,Mexico,,Volume in litres,Imports,Beer,67729
+2009,Netherlands,,Volume in litres,Imports,Beer,64353
+2009,South Africa,,Volume in litres,Exports,Spirits,0
+2009,Spain,,Volume in litres,Imports,Wines,16535
+2009,Sweden,,Volume in litres,Exports,Spirits,428
+2009,Taiwan,,Volume in litres,Exports,Wines,19
+2009,Thailand,,Volume in litres,Exports,Spirits,0
+2009,United Kingdom,,Volume in litres,Imports,Spirits,5139
+2009,United Kingdom,,Volume in litres,Imports,Beer,12404
+2009,United Kingdom,,Volume in litres,Exports,Spirits,201
+2009,United States,,Volume in litres,Imports,Spirits,12365
+2009,United States,,Volume in litres,Imports,Wines,48870
+2009,United States,,Volume in litres,Imports,Beer,68247
+2009,United States,,Volume in litres,Exports,Spirits,119983
+2009,United States,,Volume in litres,Exports,Wines,11140
+2009,United States,,Volume in litres,Exports,Beer,343756
+2009,Other countries,,Volume in litres,Imports,Spirits,9096
+2009,Other countries,,Volume in litres,Imports,Wines,55787
+2009,Other countries,,Volume in litres,Imports,Beer,78138
+2009,Other countries,,Volume in litres,Exports,Spirits,1579
+2009,Other countries,,Volume in litres,Exports,Wines,895
+2010,Canada,,Volume in litres,Imports,Spirits,55124
+2010,Canada,,Volume in litres,Imports,Wines,331191
+2010,Canada,,Volume in litres,Imports,Beer,342679
+2010,Canada,,Volume in litres,Exports,Spirits,121462
+2010,Canada,,Volume in litres,Exports,Wines,13133
+2010,Canada,,Volume in litres,Exports,Beer,308691
+2010,Australia,,Volume in litres,Imports,Wines,49057
+2010,Belgium,,Volume in litres,Exports,Spirits,283
+2010,Brazil,,Volume in litres,Imports,Spirits,20
+2010,Chile,,Volume in litres,Imports,Wines,37296
+2010,France,,Volume in litres,Imports,Spirits,2596
+2010,France,,Volume in litres,Imports,Wines,56563
+2010,France,,Volume in litres,Exports,Spirits,35
+2010,Germany,,Volume in litres,Imports,Wines,5984
+2010,Germany,,Volume in litres,Imports,Beer,21289
+2010,Guyana,,Volume in litres,Imports,Spirits,1364
+2010,Ireland,,Volume in litres,Imports,Spirits,233
+2010,Ireland,,Volume in litres,Imports,Beer,14837
+2010,Italy,,Volume in litres,Imports,Wines,60539
+2010,Jamaica,,Volume in litres,Imports,Spirits,5805
+2010,Japan,,Volume in litres,Exports,Spirits,531
+2010,Mexico,,Volume in litres,Imports,Spirits,5
+2010,Mexico,,Volume in litres,Imports,Beer,67303
+2010,Netherlands,,Volume in litres,Imports,Beer,59080
+2010,South Africa,,Volume in litres,Exports,Spirits,0
+2010,Spain,,Volume in litres,Imports,Wines,18757
+2010,Sweden,,Volume in litres,Exports,Spirits,333
+2010,Taiwan,,Volume in litres,Exports,Wines,19
+2010,Thailand,,Volume in litres,Exports,Spirits,1
+2010,United Kingdom,,Volume in litres,Imports,Spirits,4949
+2010,United Kingdom,,Volume in litres,Imports,Beer,32036
+2010,United Kingdom,,Volume in litres,Exports,Spirits,503
+2010,United States,,Volume in litres,Imports,Spirits,32586
+2010,United States,,Volume in litres,Imports,Wines,44960
+2010,United States,,Volume in litres,Imports,Beer,83526
+2010,United States,,Volume in litres,Exports,Spirits,118349
+2010,United States,,Volume in litres,Exports,Wines,12034
+2010,United States,,Volume in litres,Exports,Beer,308691
+2010,Other countries,,Volume in litres,Imports,Spirits,7566
+2010,Other countries,,Volume in litres,Imports,Wines,58036
+2010,Other countries,,Volume in litres,Imports,Beer,64607
+2010,Other countries,,Volume in litres,Exports,Spirits,1426
+2010,Other countries,,Volume in litres,Exports,Wines,1081
+2011,Canada,,Volume in litres,Imports,Spirits,32912
+2011,Canada,,Volume in litres,Imports,Wines,358603
+2011,Canada,,Volume in litres,Imports,Beer,343981
+2011,Canada,,Volume in litres,Exports,Spirits,122631
+2011,Canada,,Volume in litres,Exports,Wines,19365
+2011,Canada,,Volume in litres,Exports,Beer,332022
+2011,Australia,,Volume in litres,Imports,Wines,57194
+2011,Belgium,,Volume in litres,Exports,Spirits,39
+2011,Brazil,,Volume in litres,Imports,Spirits,12
+2011,Chile,,Volume in litres,Imports,Wines,29036
+2011,France,,Volume in litres,Imports,Spirits,2660
+2011,France,,Volume in litres,Imports,Wines,58427
+2011,France,,Volume in litres,Exports,Spirits,30
+2011,Germany,,Volume in litres,Imports,Wines,6192
+2011,Germany,,Volume in litres,Imports,Beer,24330
+2011,Guyana,,Volume in litres,Imports,Spirits,1016
+2011,Ireland,,Volume in litres,Imports,Spirits,267
+2011,Ireland,,Volume in litres,Imports,Beer,13664
+2011,Italy,,Volume in litres,Imports,Wines,66942
+2011,Jamaica,,Volume in litres,Imports,Spirits,4456
+2011,Japan,,Volume in litres,Exports,Spirits,225
+2011,Mexico,,Volume in litres,Imports,Spirits,10
+2011,Mexico,,Volume in litres,Imports,Beer,63631
+2011,Netherlands,,Volume in litres,Imports,Beer,64318
+2011,South Africa,,Volume in litres,Exports,Spirits,12
+2011,Spain,,Volume in litres,Imports,Wines,29008
+2011,Sweden,,Volume in litres,Exports,Spirits,143
+2011,Taiwan,,Volume in litres,Exports,Wines,21
+2011,Thailand,,Volume in litres,Exports,Spirits,
+2011,United Kingdom,,Volume in litres,Imports,Spirits,5093
+2011,United Kingdom,,Volume in litres,Imports,Beer,25539
+2011,United Kingdom,,Volume in litres,Exports,Spirits,441
+2011,United States,,Volume in litres,Imports,Spirits,10486
+2011,United States,,Volume in litres,Imports,Wines,50699
+2011,United States,,Volume in litres,Imports,Beer,80759
+2011,United States,,Volume in litres,Exports,Spirits,120377
+2011,United States,,Volume in litres,Exports,Wines,18135
+2011,United States,,Volume in litres,Exports,Beer,332022
+2011,Other countries,,Volume in litres,Imports,Spirits,8911
+2011,Other countries,,Volume in litres,Imports,Wines,61105
+2011,Other countries,,Volume in litres,Imports,Beer,71739
+2011,Other countries,,Volume in litres,Exports,Spirits,1364
+2011,Other countries,,Volume in litres,Exports,Wines,1209
+2012,Canada,,Volume in litres,Imports,Spirits,37269
+2012,Canada,,Volume in litres,Imports,Wines,361360
+2012,Canada,,Volume in litres,Imports,Beer,317577
+2012,Canada,,Volume in litres,Exports,Spirits,123151
+2012,Canada,,Volume in litres,Exports,Wines,28883
+2012,Canada,,Volume in litres,Exports,Beer,275227
+2012,Australia,,Volume in litres,Imports,Wines,48299
+2012,Belgium,,Volume in litres,Exports,Spirits,16
+2012,Brazil,,Volume in litres,Imports,Spirits,18
+2012,Chile,,Volume in litres,Imports,Wines,25190
+2012,France,,Volume in litres,Imports,Spirits,2691
+2012,France,,Volume in litres,Imports,Wines,59606
+2012,France,,Volume in litres,Exports,Spirits,54
+2012,Germany,,Volume in litres,Imports,Wines,6203
+2012,Germany,,Volume in litres,Imports,Beer,22768
+2012,Guyana,,Volume in litres,Imports,Spirits,340
+2012,Ireland,,Volume in litres,Imports,Spirits,331
+2012,Ireland,,Volume in litres,Imports,Beer,14744
+2012,Italy,,Volume in litres,Imports,Wines,69723
+2012,Jamaica,,Volume in litres,Imports,Spirits,1685
+2012,Japan,,Volume in litres,Exports,Spirits,257
+2012,Mexico,,Volume in litres,Imports,Spirits,18
+2012,Mexico,,Volume in litres,Imports,Beer,53965
+2012,Netherlands,,Volume in litres,Imports,Beer,60873
+2012,South Africa,,Volume in litres,Exports,Spirits,0
+2012,Spain,,Volume in litres,Imports,Wines,39448
+2012,Sweden,,Volume in litres,Exports,Spirits,132
+2012,Taiwan,,Volume in litres,Exports,Wines,34
+2012,Thailand,,Volume in litres,Exports,Spirits,
+2012,United Kingdom,,Volume in litres,Imports,Spirits,5309
+2012,United Kingdom,,Volume in litres,Imports,Beer,17289
+2012,United Kingdom,,Volume in litres,Exports,Spirits,283
+2012,United States,,Volume in litres,Imports,Spirits,20094
+2012,United States,,Volume in litres,Imports,Wines,54634
+2012,United States,,Volume in litres,Imports,Beer,74518
+2012,United States,,Volume in litres,Exports,Spirits,120923
+2012,United States,,Volume in litres,Exports,Wines,27220
+2012,United States,,Volume in litres,Exports,Beer,275227
+2012,Other countries,,Volume in litres,Imports,Spirits,6782
+2012,Other countries,,Volume in litres,Imports,Wines,58259
+2012,Other countries,,Volume in litres,Imports,Beer,73419
+2012,Other countries,,Volume in litres,Exports,Spirits,1484
+2012,Other countries,,Volume in litres,Exports,Wines,1630
+2013,Canada,,Volume in litres,Imports,Spirits,26252
+2013,Canada,,Volume in litres,Imports,Wines,374675
+2013,Canada,,Volume in litres,Imports,Beer,338700
+2013,Canada,,Volume in litres,Exports,Spirits,137632
+2013,Canada,,Volume in litres,Exports,Wines,35704
+2013,Canada,,Volume in litres,Exports,Beer,249435
+2013,Australia,,Volume in litres,Imports,Wines,49443
+2013,Belgium,,Volume in litres,Exports,Spirits,326
+2013,Brazil,,Volume in litres,Imports,Spirits,28
+2013,Chile,,Volume in litres,Imports,Wines,25378
+2013,France,,Volume in litres,Imports,Spirits,2706
+2013,France,,Volume in litres,Imports,Wines,61410
+2013,France,,Volume in litres,Exports,Spirits,1259
+2013,Germany,,Volume in litres,Imports,Wines,6278
+2013,Germany,,Volume in litres,Imports,Beer,23702
+2013,Guyana,,Volume in litres,Imports,Spirits,375
+2013,Ireland,,Volume in litres,Imports,Spirits,390
+2013,Ireland,,Volume in litres,Imports,Beer,14587
+2013,Italy,,Volume in litres,Imports,Wines,69866
+2013,Jamaica,,Volume in litres,Imports,Spirits,1403
+2013,Japan,,Volume in litres,Exports,Spirits,3572
+2013,Mexico,,Volume in litres,Imports,Spirits,28
+2013,Mexico,,Volume in litres,Imports,Beer,56353
+2013,Netherlands,,Volume in litres,Imports,Beer,63470
+2013,South Africa,,Volume in litres,Exports,Spirits,1184
+2013,Spain,,Volume in litres,Imports,Wines,34619
+2013,Sweden,,Volume in litres,Exports,Spirits,137
+2013,Taiwan,,Volume in litres,Exports,Wines,26
+2013,Thailand,,Volume in litres,Exports,Spirits,
+2013,United Kingdom,,Volume in litres,Imports,Spirits,5281
+2013,United Kingdom,,Volume in litres,Imports,Beer,20391
+2013,United Kingdom,,Volume in litres,Exports,Spirits,95
+2013,United States,,Volume in litres,Imports,Spirits,8989
+2013,United States,,Volume in litres,Imports,Wines,58036
+2013,United States,,Volume in litres,Imports,Beer,82599
+2013,United States,,Volume in litres,Exports,Spirits,128009
+2013,United States,,Volume in litres,Exports,Wines,33686
+2013,United States,,Volume in litres,Exports,Beer,249435
+2013,Other countries,,Volume in litres,Imports,Spirits,7051
+2013,Other countries,,Volume in litres,Imports,Wines,69646
+2013,Other countries,,Volume in litres,Imports,Beer,77598
+2013,Other countries,,Volume in litres,Exports,Spirits,3051
+2013,Other countries,,Volume in litres,Exports,Wines,1992
