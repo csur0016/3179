@@ -4,7 +4,7 @@
   "height": 450,
   "title": "Australia Alcohol Consumption",
   "data": {
-    "url": "https://raw.githubusercontent.com/csur0016/3179/refs/heads/main/australia_consumption.csv"
+    "url": "https://raw.githubusercontent.com/csur0016/2179/refs/heads/main/csv/australia_consumption.csv"
   },
   "params": [
     {
