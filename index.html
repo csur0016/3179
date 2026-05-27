@@ -1,144 +1,284 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Alcohol Consumption</title>
+
+    <!-- Vega & Vega-Lite -->
     <script src="https://cdn.jsdelivr.net/npm/vega@5.22.1"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.4.0"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.21.0"></script>
 
     <!-- CSS file -->
-    <link rel="stylesheet" type="text/css" href="styles.css" media="all">
-
+    <link rel="stylesheet" type="text/css" href="style.css" media="all">
 </head>
 
 <body>
-    <h2>Dataset from GitHub</h2>
-
     <div class="page">
-        <!-- pure grid group -->
-        <div class="pure-g">
-        <div class="pure-u-1-1">
-            <h1>Multiple Visualisations</h1>
-            <p>This page demonstrates how you can use pure.css grid for your layout.</p>
-        </div>
-        </div>
-        <!-- end pure grid group -->
-
-        
-        <!-- pure grid group -->
-        <div class="pure-g">
-        <div class="pure-u-1-2">
-            <div class="description description-left">
-            <h2>Two Columns Layout</h2>
-            <p>The first column contains text and the second column contains a visualisation.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Massa sapien faucibus et molestie ac feugiat sed. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Massa sapien faucibus et molestie ac feugiat sed. </p>
-            </div>
-        </div>
-        <div class="pure-u-1-2">
-            <div id="vis1" class="vis-container"></div>
-        </div>
-        </div>
-        <!-- end pure grid group -->
-
-        <!-- pure grid group -->
-        <div class="pure-g">
-        <div class="pure-u-1-3">
-            <div class="description description-left">
-            <h2>Three Equal Columns</h2>
-            <p>Using all three columns without merging. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa sapien faucibus et molestie ac feugiat
-                sed. Egestas purus viverra accumsan in nisl. Egestas purus viverra accumsan in nisl.</p>
-            </div>
-        </div>
-        <div class="pure-u-1-3">
-            <div id="vis2" class="vis-container"></div>
-        </div>
-        <div class="pure-u-1-3" style="width: 31.5%;">
-            <div id="vis3" class="vis-container" style="margin-left: 15px;"></div>
-        </div>
-
-        </div>
-        <!-- end pure grid group -->
-
-        <!-- pure grid group -->
-        <div class="pure-g">
-        <div class="pure-u-2-3">
-            <div id="vis4" class="vis-container"></div>
-        </div>
-        <div class="pure-u-1-3">
-            <div class="description description-right">
-            <h2>First and Second Columns Combined</h2>
-            <p>The first and second columns are combined. Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa sapien
-                faucibus et molestie ac feugiat sed. Egestas purus viverra accumsan in nisl.</p>
+        <!-- Header -->
+        <div class="header-banner">
+            <div class="header-left">
+                <span class="header-eyebrow">
+                    Global Data Report · 2026
+                </span>
+                <h1 class="header-title">Global Alcohol Consumption</h1>
+                <p class="header-subtitle">
+                    Exploring worldwide drinking patterns, trade flows, and gender-based drinking proportions; importing and 
+                    exporting alcohol products across specific countries, including teenage drinking behaviours in studies and 
+                    time management aspects.
+                </p>
+                <hr class="section-divider">
             </div>
         </div>
 
-        </div>
-        <!-- end pure grid group -->
 
-                <!-- pure grid group -->
-        <div class="pure-g">
-        <div class="pure-u-1-3">
-            <div class="description description-left">
-            <h2>Three Equal Columns</h2>
-            <p>Using all three columns without merging. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa sapien faucibus et molestie ac feugiat
-                sed. Egestas purus viverra accumsan in nisl. Egestas purus viverra accumsan in nisl.</p>
+        <!-- SECTION 1 · Global Consumption Map -->
+        <div class="section-label">
+            <h2 class="section-title">Global Consumption Overview</h2>
+        </div>
+
+        <div class="section-1">
+            <div class="section-1-g">
+                <div id="vis1" class="vis-container"></div>
+            </div>
+            <p class="body-text">
+                <strong>Alcohol consumption</strong> varies dramatically <u>across the globe</u>. South America and North Africa consistently have high 
+                levels of beer consumption, while Europe consumes mostly wine and beer. Spirits are mainly consumed in Asia. 
+                <u>These patterns are often linked to cultural and religious factors.</u>
+            </p>
+            <div class="text-panel">
+                <p class="body-text">
+                    The visualization suggests that most parts of the world prefer beer, while spirits and wine have lower 
+                    consumption ratios, respectively.
+                </p>
             </div>
         </div>
-        <div class="pure-u-1-3">
-            <div id="vis5" class="vis-container"></div>
-        </div>
-        <div class="pure-u-1-3" style="width: 31.5%;">
-            <div id="vis6" class="vis-container" style="margin-left: 15px;"></div>
+        <hr class="section-divider">
+
+
+        <!-- SECTION 2 · Country & Gender Type -->
+        <div class="section-label">
+                <h2 class="section-title">Country &amp; Gender Consumption Breakdown</h2>
         </div>
 
-        </div>
-        <!-- end pure grid group -->
+        <div class="section-2">
+            <div style="display: grid; grid-template-columns: 1fr 380px; gap: 24px;">
+                <div class="section-2-g">
+                    <div id="vis3" class="vis-container"></div>
+                </div>
+                <p class="body-text">
+                    The percentage of alcohol consumption in <strong><span style="color: #082a54;">Australia</span>, 
+                    <span style="color: #005878;">Canada</span>, <span style="color: #082a54;">Thailand</span>, 
+                    <span style="color: #64a40d;">the United Kingdom</span>, and <span style="color: #00835f;">the United States </span></strong>
+                    is shown in a bar graph comparison, with an interactive selection box for three types of drinks: beer, wine, and 
+                    spirits. Australia and the United Kingdom have similar patterns, 
+                    where wine and beer consumption are relatively stable. On the other hand, Thailand and the United States show similar 
+                    patterns, where wine consumption is low but spirits consumption is high. Canada shows a relatively balanced consumption 
+                    ratio across all three types of drinks, with slightly higher beer consumption.
+                </p>
+            </div>
 
-                <!-- pure grid group -->
-        <div class="pure-g">
-        <div class="pure-u-1-3">
-            <div class="description description-left">
-            <h2>Three Equal Columns</h2>
-            <p>Using all three columns without merging. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa sapien faucibus et molestie ac feugiat
-                sed. Egestas purus viverra accumsan in nisl. Egestas purus viverra accumsan in nisl.</p>
+            <div class="section-2-g" style="grid-column: 1/-1;">
+                <div id="vis2" class="vis-container"></div>
+            </div>
+            <p class="body-text">
+                The drinking <u>gender ratio</u> in selected countries across each region, typically <strong>Asia</strong>, is relatively balanced, where consumers are mostly 
+                both <strong><span style="color: #bf8f50;">female</span></strong> and <strong><span style="color: #6e685b;">male</span></strong>, 
+                with a slight leaning toward females in most countries. However, Malaysia and the Netherlands show a slightly 
+                larger proportion of male consumers.
+            </p>
+        </div>
+        <hr class="section-divider">
+
+
+        <!-- SECTION 3 · Global Import & Export (Donut) -->
+        <div class="section-label">
+            <div class="section-label-text">
+                <h2 class="section-title">Global Alcohol Trade</h2>
             </div>
         </div>
-        <div class="pure-u-1-3">
-            <div id="vis7" class="vis-container"></div>
+
+        <div class="section-3">
+            <div class="section-3-g">
+                <div id="vis4" class="vis-container"></div>
+            </div>
+                <p class="body-text">
+                    <strong><span style="color: #c7ad46;">Exporting</span></strong> and <strong><span style="color: #4e7a56;">importing</span></strong> alcohol show the industry dynamics in this field across different countries and their areas of expertise. 
+                    Among the selected countries, <strong>Thailand, the United States, Australia, and the Netherlands</strong> are mainly exporting alcohol, while <strong>Canada</strong> 
+                    engages in both importing and exporting. <strong>The United Kingdom</strong> is primarily an importing country with some exporting activity.
+                </p>
         </div>
-        <div class="pure-u-1-3" style="width: 31.5%;">
-            <div id="vis8" class="vis-container" style="margin-left: 15px;"></div>
+        <hr class="section-divider">
+
+
+        <!-- SECTION 4 · Import & Export Detail -->
+        <div class="section-label">
+            <div class="section-label-text">
+                <h2 class="section-title">Alcohol Import &amp; Export by Country</h2>
+            </div>
         </div>
 
+        <div class="section-4">
+            <div style="display: grid; grid-template-columns: 1fr 370px; gap: 24px;">
+                <div class="section-4-g">
+                    <div id="vis5" class="vis-container"></div>
+                </div>
+                <div class="text">
+                    <p class="body-text">
+                        Among the selected countries, <strong><span style="color: #005878;">Canada</span></strong> shows the largest proportion 
+                        of alcohol imports, while the other countries have similar proportions in the stacked area chart.
+                    </p>
+                    <p class="body-text">
+                        <strong><span style="color: #005878;">Canada</span> and <span style="color: #00835f;">the United States</span></strong> have similar proportions of alcohol exports, 
+                        while <strong><span style="color: #64a40d;">the United Kingdom</span></strong> has a much lower value in the dataset.
+                    </p>
+                </div>
+            </div>
+
+            <div style="display: grid; grid-template-columns: 1fr 370px; gap: 24px;">
+                <div class="section-4-g">
+                    <div id="vis6" class="vis-container"></div>
+                </div>
+                <div class="text">
+                    <div class="text-panel">
+                        <p class="body-text">
+                            <strong>The United Kingdom</strong> has lower export values in the dataset than Canada and the 
+                            United States, making it less visible in the chart. <strong>Thailand</strong>'s export value is 
+                        not specified in the dataset, making it not visible in the chart.
+                        </p>
+                    </div>  
+                </div>
+            </div>
         </div>
-        <!-- end pure grid group -->
-    </div> <!-- end page -->
+        <hr class="section-divider">
+
+
+        <!-- SECTION 5 · Australia Heatmap -->
+        <div class="section-label">
+            <div class="section-label-text">
+                <h2 class="section-title">Australia: Consumption Over Time From 2011 to 2018</h2>
+            </div>
+        </div>
+
+        <div class="section-5">
+            <div style="display: grid; grid-template-columns: 280px 1fr; gap: 24px;">
+                <div class="text">
+                    <p class="body-text">
+                        This heatmap shows <strong><span style="color: #082a54;">Australian</span></strong> drinking patterns from 2011 to 2018, 
+                        which are mainly focused on <strong><span style="color: #7a7636;">beer</span></strong> and <strong><span style="color: #688e53;">wine</span></strong>, 
+                        while <strong><span style="color: #54a27e;">spirits</span>, <span style="color: #4cb4af;">ready-to-drink</span></strong> beverages, and 
+                        <strong><span style="color: #17b6e3;">cider</span></strong> are less in demand.
+                    </p>
+                    <div class="text-panel">
+                        <p class="body-text">
+                            <strong>Beer</strong> obviously has become less popular over the years.
+                        </p>
+                    </div> 
+
+                </div>
+                <div class="section-5-g">
+                    <div id="vis7" class="vis-container"></div>
+                </div>
+            </div>
+
+            <div style="display: grid; grid-template-columns: 1fr 370px; gap: 24px;">
+                <div class="section-5-g">
+                    <div id="vis8" class="vis-container"></div>
+                </div>
+                <div class="text">
+                    <p class="body-text">
+                        This donut chart illustrates <strong><span style="color: #082a54;">Australian</span></strong> drinking patterns over time, focusing on <u>five</u> main 
+                        categories of alcoholic beverages: <strong><span style="color: #7a7636;">beer</span>, <span style="color: #688e53;">wine</span>, <span style="color: #54a27e;">spirits</span>, 
+                        <span style="color: #4cb4af;">ready-to-drink</span></strong> beverages, and <strong><span style="color: #17b6e3;">cider</span></strong>.
+                    </p>
+                    <p class="body-text">
+                        Area chart below elaborates on the heatmap, showing the popularity of each type of drink over the years.
+                    </p>
+                </div>
+            </div>
+            <div class="section-5-g" style="grid-column: 1/-1; margin-top: -0px;">
+                <div id="vis9" class="vis-container"></div>
+            </div>
+        </div>
+        <hr class="section-divider">
+
+
+        <!-- SECTION 6 · Student Consumption -->
+        <div class="section-label">
+            <div class="section-label-text">
+                <h2 class="section-title">Student Alcohol Consumption</h2>
+            </div>
+        </div>
+
+        <div class="section-6">
+            <div style="display: grid; grid-template-columns: 280px 1fr; gap: 24px;">
+                <p class="body-text">
+                    Among teenagers aged 15 to 22, the bar chart indicates that most 
+                    recorded drinking cases occur at ages 15 to 18, which are minors. Both 
+                    <strong><span style="color: #bf8f50;">female</span></strong> and 
+                    <strong><span style="color: #6e685b;">male</span></strong> are represented, with <u>a slightly higher proportion of females.</u>
+                </p>
+                <div class="section-6-g">
+                    <div id="vis10" class="vis-container"></div>
+                </div>
+            </div>
+
+            <div style="display: grid; grid-template-columns: 1fr 350px; gap: 24px;">
+                <div class="section-6-g">
+                    <div id="vis11" class="vis-container"></div>
+                </div>
+                <p class="body-text">
+                    This radar chart elaborates on ages 15 to 18, showing the mean values of 
+                    students across various aspects, including <strong>health, going out, failures, study 
+                    time, and absences</strong>, on a scale from 1 to 5 (1 = low and 5 = high).
+                </p>
+            </div>
+        </div>
+        <hr class="section-divider">
+
+
+        <!-- FOOTER -->
+        <div class="page-footer">
+            <p>Data sources:
+                <br>- Raj R, accessed 22 April 2026, https://www.kaggle.com/datasets/rishitraj4312/global-alcohol-consumption
+                <br>- UCI Machine Learning and Batogov D, accessed 22 April 2026, https://www.kaggle.com/datasets/uciml/student-alcohol-consumption
+                <br>- Government of Canada, accessed on 26 April 2026, https://open.canada.ca/data/dataset/a824be82-3f9e-425f-b0fb-76b0fda4c846/resource/c9f49228-6426-4d5c-95ba-66b19eead573#additional-info
+                <br>- Australian Government, accessed on 26 April 2026, https://www.data.gov.au/data/dataset/harmful-use-of-alcohol/resource/019dd1c4-22c0-4201-9586-30a4b6515ba7
+                <br>- Chaudhari H, accessed on 26 April 2026, https://www.kaggle.com/datasets/heemalichaudhari/world-alcohol-consumption-dataset
+            </p>
+            <p>FIT2179 Data Visualisation · 2026</p>
+        </div>
+
+    </div>
+    <!-- end page -->
 
     <script type="text/javascript">
-        var specVis1 = "js/australia_consumption.json";
-        var specVis2 = "js/line_graph_female_male.json";
-        var specVis3 = "js/global_consumption_beer.json";
-        var specVis4 = "js/global_consumption_wine.json";
-        var specVis5 = "js/global_consumption_spirits.json";
-        var specVis6 = "js/student_consumption.json";
-        var specVis7 = "js/global_import_export.json";
-        
-        vegaEmbed('#vis1', specVis1, {action: false});
-        vegaEmbed('#vis2', specVis2, {action: false});
-        vegaEmbed('#vis3', specVis3, {action: false});
-        vegaEmbed('#vis4', specVis4, {action: false});
-        vegaEmbed('#vis5', specVis5, {action: false});
-        vegaEmbed('#vis6', specVis6, {action: false});
-        vegaEmbed('#vis7', specVis7, {action: false});
+        var specVis1  = "js/global_consumption_map.json";
+        var specVis2  = "js/global_female_male.json";
+        var specVis3  = "js/global_consumption_barchart.json";
+        var specVis4  = "js/global_import_export_donut.json";
+        var specVis5  = "js/global_import.json";
+        var specVis6  = "js/global_export.json";
+        var specVis7  = "js/australia_consumption_heatmap.json";
+        var specVis8  = "js/australia_consumption_donut.json";
+        var specVis9  = "js/australia_consumption_line.json";
+        var specVis10 = "js/student_consumption_barchart.json";
+        var specVis11 = "js/student_consumption_radar.json";
+
+        vegaEmbed('#vis1',  specVis1,  {actions: false});
+        vegaEmbed('#vis2',  specVis2,  {actions: false});
+        vegaEmbed('#vis3',  specVis3,  {actions: false});
+        vegaEmbed('#vis4',  specVis4,  {actions: false});
+        vegaEmbed('#vis5',  specVis5,  {actions: false});
+        vegaEmbed('#vis6',  specVis6,  {actions: false});
+        vegaEmbed('#vis7',  specVis7,  {actions: false});
+        vegaEmbed('#vis8',  specVis8,  {actions: false});
+        vegaEmbed('#vis9',  specVis9,  {actions: false});
+        vegaEmbed('#vis10', specVis10, {actions: false});
+        vegaEmbed('#vis11', specVis11, {actions: false});
     </script>
 
 </body>
-
 </html>
