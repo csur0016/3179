@@ -42,7 +42,7 @@
           "lookup": "properties.NAME",
           "from": {
             "data": {
-              "url": "/2179/csv/australia_consumption.csv"
+              "url": "/csv/australia_consumption.csv"
             },
             "key": "country",
             "fields": [
