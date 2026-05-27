@@ -1,0 +1,102 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Figure 6: Global Beverage Export Share by Country",
+    "anchor": "start",
+    "fontSize": 13,
+    "offset": 10
+  },
+  "width": 270,
+  "height": 200,
+  "data": {
+    "url": "https://raw.githubusercontent.com/csur0016/2179/refs/heads/main/csv/global_import_export.csv",
+    "format": {
+      "type": "csv",
+      "parse": {
+        "REF_DATE": "number",
+        "VALUE": "number"
+      }
+    }
+  },
+  "params": [
+    {
+      "name": "country_selection",
+      "value": "All"
+    }
+  ],
+  "transform": [
+    { "filter": "datum['Imports and exports'] == 'Exports'" },
+    { "filter": "datum.VALUE != null" },
+    {
+      "filter": {
+        "field": "GEO",
+        "oneOf": ["Canada", "United States", "United Kingdom"]
+      }
+    },
+    {
+      "aggregate": [{"op": "sum", "field": "VALUE", "as": "Total_Value"}],
+      "groupby": ["REF_DATE", "GEO"]
+    },
+    {
+      "impute": "Total_Value",
+      "key": "REF_DATE",
+      "groupby": ["GEO"],
+      "value": 0
+    },
+    { "calculate": "datetime(datum.REF_DATE, 0, 1)", "as": "Year" },
+    { "filter": "country_selection == 'All' || datum.GEO == country_selection" }
+  ],
+  "mark": {
+    "type": "area",
+    "interpolate": "monotone",
+    "opacity": 0.9
+  },
+  "encoding": {
+    "x": {
+      "field": "Year",
+      "type": "temporal",
+      "axis": {
+        "labelAngle": -45,
+        "title": "Year",
+        "grid": false,
+        "labelFontSize": 12,
+        "format": "%Y"
+      }
+    },
+    "y": {
+      "field": "Total_Value",
+      "type": "quantitative",
+      "stack": true,
+      "axis": {
+        "title": "Total Export Volume (L)",
+        "titleFontSize": 13,
+        "labelFontSize": 12,
+        "grid": true
+      },
+      "scale": {"domain": [0, 1200000]}
+    },
+    "color": {
+      "field": "GEO",
+      "type": "nominal",
+      "title": "Country",
+      "scale": {
+        "domain": ["Canada", "United States", "United Kingdom"],
+        "range": ["#005878", "#00835f", "#64a40d"]
+      },
+      "legend": {
+        "orient": "right",
+        "title": "Country",
+        "symbolType": "circle"
+      }
+    },
+    "tooltip": [
+      { "field": "Year", "type": "temporal", "title": "Year", "format": "%Y" },
+      { "field": "GEO", "type": "nominal", "title": "Country" },
+      { "field": "Total_Value", "type": "quantitative", "title": "Import Volume", "format": "," }
+    ]
+  },
+  "config": {
+    "view": { "stroke": "transparent" },
+    "font": "sans-serif"
+  }
+}

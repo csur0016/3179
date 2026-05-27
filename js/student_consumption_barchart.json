@@ -1,0 +1,91 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 440,
+  "height": 300,
+  "title": {
+    "text": "Figure 10: Teen Consumer by Age and Gender",
+    "anchor": "start",
+    "fontSize": 13,
+    "offset": 10
+  }, 
+  "data": {
+    "url": "csv/student_consumption.csv"
+  },
+  "transform": [
+    {
+      "calculate": "datum.sex == 'F' ? 'Female' : 'Male'",
+      "as": "Gender"
+    }
+  ],
+  "layer": [
+    {
+      "mark": {"type": "bar", "tooltip": true},
+      "encoding": {
+        "x": {
+          "field": "age",
+          "type": "ordinal",
+          "title": "Age"
+        },
+        "y": {
+          "aggregate": "count",
+          "type": "quantitative",
+          "title": "Number of Students"
+        },
+        "color": {
+          "field": "Gender",
+          "type": "nominal",
+          "scale": {
+            "domain": ["Female", "Male"],
+            "range": ["#bf8f50", "#6e685b"]
+          },
+          "title": "Gender"
+        },
+        "xOffset": {
+          "field": "Gender"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "rect",
+        "color": "#efece7",
+        "opacity": 0.85,
+        "cornerRadius": 5
+      },
+      "encoding": {
+        "x": {"value": 258},
+        "x2": {"value": 420},
+        "y": {"value": 50},
+        "y2": {"value": 105}
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "baseline": "top",
+        "fontSize": 11,
+        "color": "#7a7a7a"
+      },
+      "encoding": {
+        "x": {"value": 400},
+        "y": {"value": 65},
+        "text": {"value": "Early teens (15-18) tend to"}
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "baseline": "top",
+        "fontSize": 11,
+        "color": "#7a7a7a"
+      },
+      "encoding": {
+        "x": {"value": 400},
+        "y": {"value": 80},
+        "text": {"value": "drink more than late teens"}
+      }
+    }
+  ]
+}

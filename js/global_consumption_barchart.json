@@ -1,0 +1,79 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Figure 2: Alcohol Consumption by Country",
+    "anchor": "start",
+    "fontSize": 13,
+    "offset": 10
+  },
+
+  "data": {
+    "url": "csv/global_consumption_each_type.csv"
+  },
+
+  "width": 420,
+  "height": 280,
+
+  "params": [
+    {
+      "name": "drink",
+      "value": "spirits_percent",
+      "bind": {
+        "input": "select",
+        "name": "Drink Type: ",
+        "options": ["beer_percent", "wine_percent", "spirits_percent"]
+      }
+    }
+  ],
+
+  "transform": [
+    {
+      "filter": {
+        "field": "country",
+        "oneOf": [
+          "Australia",
+          "Thailand",
+          "Canada",
+          "United States",
+          "United Kingdom",
+          "Netherlands"
+        ]
+      }
+    },
+    {
+      "calculate": "datum[drink]",
+      "as": "selected_drink_value"
+    }
+  ],
+
+  "mark": "bar",
+
+  "encoding": {
+    "x": {
+      "field": "country",
+      "type": "nominal",
+      "title": "Country",
+      "axis": {"labelAngle": 0}
+    },
+
+    "y": {
+      "field": "selected_drink_value",
+      "type": "quantitative",
+      "title": "Alcohol Consumption (%)",
+      "scale": {"domain": [0, 80]}
+    },
+
+    "color": {
+      "value": "#bfb7a4"
+    },
+
+    "tooltip": [
+      {"field": "country", "type": "nominal"},
+      {
+        "field": "selected_drink_value",
+        "type": "quantitative",
+        "title": "Consumption (%)"
+      }
+    ]
+  }
+}

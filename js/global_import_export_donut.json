@@ -1,0 +1,54 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Figure 4: Import and Export Alcohol by Country",
+    "anchor": "start",
+    "fontSize": 13,
+    "offset": 10
+  },
+  "data": {
+    "url": "csv/global_import_export.csv"
+  },
+  "transform": [
+    {
+      "filter": "datum.GEO == 'Australia' || datum.GEO == 'Thailand' || datum.GEO == 'Canada' || datum.GEO == 'United States' || datum.GEO == 'United Kingdom' || datum.GEO == 'Netherlands'"
+    },
+    {
+      "filter": "datum.VALUE != null && datum.VALUE != ''"
+    }
+  ],
+  "columns": 3,
+  "facet": {
+    "field": "GEO",
+    "type": "nominal",
+    "title": "Country"
+  },
+  "spec": {
+    "width": 235,
+    "height": 150,
+    "mark": {
+      "type": "arc", 
+      "innerRadius": 40,
+      "outerRadius": 80,
+      "stroke": "#fff",
+      "tooltip": true
+    },
+    "encoding": {
+      "theta": {
+        "field": "VALUE",
+        "type": "quantitative",
+        "aggregate": "sum",
+        "title": "Total Volume/Value"
+      },
+      "color": {
+        "field": "Imports and exports",
+        "type": "nominal",
+        "title": "Trade Direction",
+        "scale": {
+          "domain": ["Imports", "Exports"],
+          "range": ["#4e7a56", "#c7ad46"] 
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "title": {
+    "text": "Figure 8: Type of Alcohol Consumption in Australia",
+    "anchor": "start",
+    "fontSize": 13
+  },  
+  "width": 350,
+  "height": 100,
+  "padding": {"top": 5, "left": 5, "right": 5, "bottom": 5},
+  "background": "white",
+
+  "signals": [
+    {
+      "name": "drinkTypes",
+      "value": ["Beer", "Wine", "Spirits", "RTD", "Cider"]
+    },
+    {"name": "centerY",     "value": 170},
+    {"name": "innerRadius", "value": 65},
+    {"name": "outerRadius", "value": 110},
+    {"name": "gap",         "value": 25},
+    {
+      "name": "Year",  "value": 2018,
+      "bind": {"input": "select", "name": "Chart Year:  ", "options": [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018]}
+    }
+  ],
+
+  "data": [
+    {
+      "name": "raw",
+      "url": "csv/australia_consumption.csv",
+      "format": {"type": "csv", "parse": "auto"}
+    },
+    {
+      "name": "charts",
+      "values": [
+        {"chartX": 170, "selectedYear": 2011, "side": "left"}
+      ]
+    }
+  ],
+
+  "scales": [
+    {
+      "name": "color",
+      "type": "ordinal",
+      "domain": ["Beer", "Wine", "Spirits", "RTD", "Cider"],
+      "range": ["#7a7636", "#688e53", "#54a27e", "#4cb4af", "#17b6e3"]
+    }
+  ],
+  "marks": [
+    {
+      "type": "group",
+      "from": {
+        "facet": {
+          "name": "chart_data",
+          "data": "charts",
+          "groupby": ["chartX", "selectedYear", "side"]
+        }
+      },
+      "signals": [
+        {"name": "cx", "update": "data('chart_data')[0].chartX"},
+        {"name": "yr", "update": "Year"}
+      ],
+      "data": [
+        {
+          "name": "slices",
+          "source": "raw",
+          "transform": [
+            {"type": "filter",  "expr": "toNumber(datum.Year) == yr"},
+            {"type": "fold",    "fields": {"signal": "drinkTypes"}, "as": ["type", "value"]},
+            {"type": "formula", "as": "value",    "expr": "toNumber(datum.value)"},
+            {"type": "pie",     "field": "value", "sort": false},
+            {"type": "formula", "as": "pct",      "expr": "round(datum.value / toNumber(datum.Total) * 1000) / 10"},
+            {"type": "formula", "as": "midAngle", "expr": "(datum.startAngle + datum.endAngle) / 2"},
+            {
+              "type": "formula", "as": "side",
+              "expr": "datum.type == 'Spirits' || datum.type == 'RTD' || datum.type == 'Wine' ? 'left' : 'right'"
+            },
+            {"type": "formula", "as": "labelX", "expr": "datum.side == 'right' ? cx + outerRadius + gap       : cx - outerRadius - gap"},
+            {"type": "formula", "as": "lineX2",  "expr": "datum.side == 'right' ? cx + outerRadius + gap      : cx - outerRadius - gap"},
+            {"type": "formula", "as": "align",   "expr": "datum.side == 'right' ? 'left' : 'right'"}
+          ]
+        }
+      ],
+      "marks": [
+        {
+          "type": "arc",
+          "from": {"data": "slices"},
+          "encode": {
+            "update": {
+              "x": {"signal": "cx"}, "y": {"signal": "centerY"},
+              "startAngle": {"field": "startAngle"}, "endAngle": {"field": "endAngle"},
+              "innerRadius": {"signal": "innerRadius"}, "outerRadius": {"signal": "outerRadius"},
+              "fill": {"scale": "color", "field": "type"},
+              "stroke": {"value": "white"}, "strokeWidth": {"value": 2},
+              "tooltip": {"signal": "{'Year': datum.Year, 'Type': datum.type, 'L/capita': datum.value, 'Share': datum.pct + '%'}"}
+            }
+          }
+        },
+        {
+          "type": "text",
+          "encode": {
+            "update": {
+              "x": {"signal": "cx"}, "y": {"signal": "centerY"},
+              "text": {"signal": "yr"},
+              "fontSize": {"value": 16}, "fontWeight": {"value": "bold"},
+              "align": {"value": "center"}, "baseline": {"value": "middle"}, "fill": {"value": "#444"}
+            }
+          }
+        },
+        {
+          "type": "rule",
+          "from": {"data": "slices"},
+          "encode": {
+            "update": {
+              "x":  {"signal": "cx + outerRadius * cos(datum.midAngle - PI/2)"},
+              "y":  {"signal": "centerY + outerRadius * sin(datum.midAngle - PI/2)"},
+              "x2": {"field": "lineX2"},
+              "y2": {"signal": "centerY + outerRadius * sin(datum.midAngle - PI/2)"},
+              "stroke": {"scale": "color", "field": "type"}, "strokeWidth": {"value": 1}, "opacity": {"value": 0.8}
+            }
+          }
+        },
+        {
+          "type": "text",
+          "from": {"data": "slices"},
+          "encode": {
+            "update": {
+              "x": {"field": "labelX"},
+              "y": {"signal": "centerY + outerRadius * sin(datum.midAngle - PI/2) - 7"},
+              "text": {"signal": "datum.pct + '%'"},
+              "fontSize": {"value": 12}, "fontWeight": {"value": "bold"},
+              "fill": {"scale": "color", "field": "type"},
+              "align": {"field": "align"}, "baseline": {"value": "top"}
+            }
+          }
+        },
+        {
+          "type": "text",
+          "from": {"data": "slices"},
+          "encode": {
+            "update": {
+              "x": {"field": "labelX"},
+              "y": {"signal": "centerY + outerRadius * sin(datum.midAngle - PI/2) + 7"},
+              "text": {"field": "type"},
+              "fontSize": {"value": 10}, "fill": {"value": "#555"},
+              "align": {"field": "align"}, "baseline": {"value": "top"}
+            }
+          }
+        }
+      ]
+    }
+  ],
+
+  "legends": [
+    {
+      "fill": "color",
+      "title": "Beverage Type",
+      "orient": "right",
+      "direction": "vertical",
+      "labelFontSize": 11,
+      "titleFontSize": 12
+    }
+  ]
+}

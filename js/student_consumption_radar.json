@@ -1,0 +1,145 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Figure 11: Teen Profiles by Age",
+    "anchor": "start",
+    "fontSize": 13
+  }, 
+  "width": 400,
+  "height": 400,
+  "params": [
+    {
+      "name": "age_sel",
+      "value": 15,
+      "bind": {
+        "input": "select",
+        "options": [15, 16, 17, 18],
+        "labels": ["Age 15", "Age 16", "Age 17", "Age 18"],
+        "name": "Select Cohort Age: "
+      }
+    }
+  ],
+  "layer": [
+    {
+      "description": "Pentagon rings",
+      "data": {
+        "values": [
+          {"x":0.0,"y":-0.2,"ring":2,"seq":0},{"x":0.19021,"y":-0.0618,"ring":2,"seq":1},{"x":0.11756,"y":0.1618,"ring":2,"seq":2},{"x":-0.11756,"y":0.1618,"ring":2,"seq":3},{"x":-0.19021,"y":-0.0618,"ring":2,"seq":4},{"x":0.0,"y":-0.2,"ring":2,"seq":5},
+          {"x":0.0,"y":-0.4,"ring":4,"seq":0},{"x":0.38042,"y":-0.12361,"ring":4,"seq":1},{"x":0.23511,"y":0.32361,"ring":4,"seq":2},{"x":-0.23511,"y":0.32361,"ring":4,"seq":3},{"x":-0.38042,"y":-0.12361,"ring":4,"seq":4},{"x":0.0,"y":-0.4,"ring":4,"seq":5},
+          {"x":0.0,"y":-0.6,"ring":6,"seq":0},{"x":0.57063,"y":-0.18541,"ring":6,"seq":1},{"x":0.35267,"y":0.48541,"ring":6,"seq":2},{"x":-0.35267,"y":0.48541,"ring":6,"seq":3},{"x":-0.57063,"y":-0.18541,"ring":6,"seq":4},{"x":0.0,"y":-0.6,"ring":6,"seq":5},
+          {"x":0.0,"y":-0.8,"ring":8,"seq":0},{"x":0.76085,"y":-0.24721,"ring":8,"seq":1},{"x":0.47023,"y":0.64721,"ring":8,"seq":2},{"x":-0.47023,"y":0.64721,"ring":8,"seq":3},{"x":-0.76085,"y":-0.24721,"ring":8,"seq":4},{"x":0.0,"y":-0.8,"ring":8,"seq":5},
+          {"x":0.0,"y":-1.0,"ring":10,"seq":0},{"x":0.95106,"y":-0.30902,"ring":10,"seq":1},{"x":0.58779,"y":0.80902,"ring":10,"seq":2},{"x":-0.58779,"y":0.80902,"ring":10,"seq":3},{"x":-0.95106,"y":-0.30902,"ring":10,"seq":4},{"x":0.0,"y":-1.0,"ring":10,"seq":5}
+        ]
+      },
+      "mark": {"type": "line", "stroke": "#d0d0d0", "strokeWidth": 1, "strokeDash": [3,3]},
+      "encoding": {
+        "x": {"field": "x", "type": "quantitative", "scale": {"domain": [-1.4,1.4]}, "axis": null},
+        "y": {"field": "y", "type": "quantitative", "scale": {"domain": [-1.4,1.4]}, "axis": null},
+        "order": {"field": "seq", "type": "quantitative"},
+        "detail": {"field": "ring", "type": "nominal"}
+      }
+    },
+    {
+      "description": "Spoke lines",
+      "data": {"values": [
+        {"ex":0.0,"ey":-1.0},{"ex":0.95106,"ey":-0.30902},
+        {"ex":0.58779,"ey":0.80902},{"ex":-0.58779,"ey":0.80902},
+        {"ex":-0.95106,"ey":-0.30902}
+      ]},
+      "mark": {"type": "rule", "stroke": "#c8c8c8", "strokeWidth": 1},
+      "encoding": {
+        "x": {"field": "ex", "type": "quantitative", "scale": {"domain": [-1.4,1.4]}, "axis": null},
+        "y": {"field": "ey", "type": "quantitative", "scale": {"domain": [-1.4,1.4]}, "axis": null},
+        "x2": {"datum": 0}, "y2": {"datum": 0}
+      }
+    },
+    {
+      "description": "Ring value labels",
+      "data": {
+        "values": [
+          {"lx": 0.22021, "ly": -0.0818, "label": "1"},
+          {"lx": 0.41042, "ly": -0.14361, "label": "2"},
+          {"lx": 0.60063, "ly": -0.20541, "label": "3"},
+          {"lx": 0.79085, "ly": -0.26721, "label": "4"},
+          {"lx": 0.98106, "ly": -0.32902, "label": "5"}
+        ]
+      },
+      "mark": {"type": "text", "fontSize": 9, "color": "#999"},
+      "encoding": {
+        "x": {"field": "lx", "type": "quantitative", "scale": {"domain": [-1.4, 1.4]},
+      "axis": null},
+        "y": {"field": "ly", "type": "quantitative", "scale": {"domain": [-1.4, 1.4]},
+      "axis": null},
+        "text": {"field": "label", "type": "nominal"}
+      }
+    },
+    {
+      "description": "Axis labels",
+      "data": {"values": [
+        {"lx":0.0,  "ly":-1.22, "label":"Workday"},
+        {"lx":1.18, "ly":-0.39, "label":"Freetime"},
+        {"lx":0.73, "ly":0.98,  "label":"Going Out"},
+        {"lx":-0.73,"ly":0.98,  "label":"Health"},
+        {"lx":-1.18,"ly":-0.39, "label":"Weekend"}
+      ]},
+      "mark": {"type": "text", "fontSize": 11, "fontWeight": "bold", "color": "#333"},
+      "encoding": {
+        "x": {"field": "lx", "type": "quantitative", "scale": {"domain": [-1.4,1.4]}, "axis": null},
+        "y": {"field": "ly", "type": "quantitative", "scale": {"domain": [-1.4,1.4]}, "axis": null},
+        "text": {"field": "label", "type": "nominal"}
+      }
+    },
+    {
+      "description": "Radar polygon - line mark with manually closed 6th point",
+      "data": {"url": "https://raw.githubusercontent.com/csur0016/2179/refs/heads/main/csv/student_consumption.csv"},
+      "transform": [
+        {"filter": "datum.age == age_sel"},
+        {"aggregate": [
+          {"op": "mean", "field": "studytime", "as": "Study Time"},
+          {"op": "mean", "field": "failures",  "as": "Failures"},
+          {"op": "mean", "field": "goout",     "as": "Going Out"},
+          {"op": "mean", "field": "health",    "as": "Health"},
+          {"op": "mean", "field": "absences",  "as": "Absences"}
+        ], "groupby": ["age"]},
+        {"fold": ["Study Time","Failures","Going Out","Health","Absences"], "as": ["key","value"]},
+        {"calculate": "datum.key=='Study Time' ? 4 : datum.key=='Failures' ? 3 : datum.key=='Going Out' ? 5 : datum.key=='Health' ? 5 : 75", "as": "global_max"},
+        {"calculate": "datum.value / datum.global_max", "as": "norm"},
+        {"calculate": "datum.key=='Study Time' ? 0 : datum.key=='Failures' ? 1 : datum.key=='Going Out' ? 2 : datum.key=='Health' ? 3 : 4", "as": "key_id"},
+        {"calculate": "datum.key_id * 2 * PI / 5 - PI/2", "as": "angle"},
+        {"calculate": "datum.norm * cos(datum.angle)", "as": "x"},
+        {"calculate": "datum.norm * sin(datum.angle)", "as": "y"}
+      ],
+      "layer": [
+        {
+          "mark": {"type": "area", "opacity": 1},
+          "encoding": {
+            "color": {
+              "field": "age", "type": "nominal",
+              "scale": {"domain": [15,16,17,18], "range": ["#6d008e","#9f4bb2","#d084d7","#ffbeff"]},
+              "legend": {"title": "Age Group", "labelExpr": "datum.label"}
+            }
+          }
+        },
+        {
+          "mark": {"type": "line", "size": 40, "filled": true, "opacity": 0.7},
+          "encoding": {
+            "x": {"field": "x", "type": "quantitative"},
+            "y": {"field": "y", "type": "quantitative"},
+            "color": {
+              "field": "age", "type": "quantitative",
+              "scale": {"domain": [15,16,17,18], "range": ["#6d008e","#9f4bb2","#d084d7","#fc9ffc"]},
+              "legend": null
+            },
+            "tooltip": [
+              {"field": "age",       "type": "quantitative", "title": "Age"},
+              {"field": "key",       "type": "nominal",      "title": "Metric"},
+              {"field": "value",     "type": "quantitative", "title": "Avg Value",  "format": ".2f"},
+              {"field": "global_max","type": "quantitative", "title": "Scale Max"}
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "config": {"view": {"stroke": "transparent"}}
+}

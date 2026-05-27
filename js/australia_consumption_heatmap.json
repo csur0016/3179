@@ -1,0 +1,103 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "title": {
+    "text": "Figure 7: Alcohol Consumption in Australia from 2011 to 2018",
+    "anchor": "start",
+    "fontSize": 13,
+    "offset": 10
+  },   
+  "width": 385,
+  "height": 300,
+  "padding": 5,
+
+  "data": [
+    {
+      "name": "raw",
+      "url": "csv/australia_consumption.csv",
+      "format": {"type": "csv", "parse": "auto"}
+    },
+    {
+      "name": "heat",
+      "source": "raw",
+      "transform": [
+        {
+          "type": "fold",
+          "fields": ["Beer", "Wine", "Spirits", "RTD", "Cider"],
+          "as": ["type", "value"]
+        },
+        {
+          "type": "formula",
+          "as": "value",
+          "expr": "toNumber(datum.value)"
+        }
+      ]
+    }
+  ],
+
+  "signals": [
+    {
+      "name": "types",
+      "value": ["Beer", "Wine", "Spirits", "RTD", "Cider"]
+    }
+  ],
+
+  "scales": [
+    {
+      "name": "x",
+      "type": "band",
+      "domain": {
+        "data": "heat", 
+        "field": "Year",
+        "sort": true
+      },
+      "range": "width"
+    },
+    {
+      "name": "y",
+      "type": "band",
+      "domain": {"signal": "types"},
+      "range": "height"
+      
+    },
+    {
+      "name": "color",
+      "type": "linear",
+      "domain": {"data": "heat", "field": "value"},
+      "range": ["#d8eeff", "#08306b"]
+    }
+  ],
+  "legends": [
+    {
+      "fill": "color",
+      "title": "Consumption (L)",
+      "orient": "right",
+      "gradientLength": 200
+    }
+  ],
+  "axes": [
+    {"orient": "bottom", "scale": "x", "title": "Year"},
+    {"orient": "left", "scale": "y", "title": "Drink Type"}
+  ],
+
+  "marks": [
+    {
+      "type": "rect",
+      "from": {"data": "heat"},
+      "encode": {
+        "update": {
+          "x": {"scale": "x", "field": "Year"},
+          "width": {"scale": "x", "band": 1},
+
+          "y": {"scale": "y", "field": "type"},
+          "height": {"scale": "y", "band": 1},
+
+          "fill": {"scale": "color", "field": "value"},
+
+          "tooltip": {
+            "signal": "{'Year': datum.Year, 'Type': datum.type, 'Value': datum.value}"
+          }
+        }
+      }
+    }
+  ]
+}

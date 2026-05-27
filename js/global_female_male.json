@@ -1,0 +1,65 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "csv/gender_consumption.csv"
+  },
+  "title": {
+    "text": "Figure 3: Male and Female Alcohol Consumption by Country",
+    "anchor": "start",
+    "fontSize": 13,
+    "offset": 10
+  },
+  "width": 680,
+  "height": 200,
+  "transform": [
+    {
+      "filter": {
+        "field": "Countries",
+        "oneOf": ["Canada", "Thailand", "Netherlands", "United Kingdom", "United States", "Australia"]
+      }
+    },
+    {
+      "calculate": "(datum.Count / 1000) * 100",
+      "as": "Percentage_Count"
+    },
+    {
+      "calculate": "datum.Gender == 'Female' ? -datum.Percentage_Count : datum.Percentage_Count",
+      "as": "PyramidValue"
+    }
+  ],
+  "mark": "bar",
+  "encoding": {
+    "y": {
+      "field": "Countries",
+      "type": "nominal",
+      "title": "Country",
+      "axis": {"labelAngle": 0}
+    },
+    "x": {
+      "field": "PyramidValue",
+      "type": "quantitative",
+      "aggregate": "mean",
+      "title": "Alcohol Consumption (%)",
+      "axis": {"labelExpr": "abs(datum.value)"},
+      "scale": {"domain": [-80, 80]}
+    },
+    "xOffset": {
+      "field": "Gender"
+    },
+    "color": {
+      "field": "Gender",
+      "type": "nominal",
+      "title": "Gender",
+      "scale": {
+        "domain": ["Female", "Male"],
+        "range": ["#bf8f50", "#6e685b"]
+      },
+      "legend": {"orient": "right"}
+    },
+    "tooltip": [
+      {"field": "Countries", "type": "nominal", "title": "Country"},
+      {"field": "Gender", "type": "nominal", "title": "Gender"},
+      {"field": "Percentage_Count", "type": "quantitative", "aggregate": "mean", "title": "Mean Percentage (%)", "format": ".2f"}
+    ]
+  }
+}

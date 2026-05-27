@@ -1,0 +1,84 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 720,
+  "height": 250,
+  "title": {
+    "text": "Figure 9: Type of Alcohol Consumption in Australia Over Time",
+    "anchor": "start",
+    "fontSize": 13,
+    "offset": 10
+  }, 
+  "data": {
+    "url": "https://raw.githubusercontent.com/csur0016/2179/refs/heads/main/csv/australia_consumption.csv"
+  },
+  "params": [
+    {
+      "name": "type_selection",
+      "value": "Beer",
+      "bind": {
+        "input": "select",
+        "options": ["Beer", "Wine", "Spirits", "RTD", "Cider"],
+        "labels": ["Beer", "Wine", "Spirits", "RTD", "Cider"],
+        "name": "Select Beverage: "
+      }
+    }
+  ],
+  "transform": [
+    {
+      "fold": ["Beer", "Wine", "Spirits", "RTD", "Cider"],
+      "as": ["Type", "Consumption"]
+    },
+    {"filter": "type_selection == 'All' || datum.Type == type_selection"}
+  ],
+  "layer": [
+    {
+      "mark": {"type": "area", "opacity": 0.5},
+      "encoding": {
+        "x": {"field": "Year", "type": "ordinal", "title": "Year"},
+        "y": {
+          "field": "Consumption",
+          "type": "quantitative",
+          "title": "Litres per capita",
+          "scale": {
+            "domain": [0, 5]
+          }
+        },
+        "color": {
+          "field": "Type",
+          "type": "nominal",
+          "title": "Beverage Type",
+          "scale": {
+            "domain": ["Beer", "Wine", "Spirits", "RTD", "Cider"],
+            "range": ["#7a7636", "#688e53", "#54a27e", "#4cb4af", "#17b6e3"]
+          },
+          "legend": {
+            "orient": "right",
+            "title": "Beverage Type",
+            "symbolOpacity": 1,
+            "symbolType": "circle"
+          }
+        },
+        "tooltip": [
+          {"field": "Year", "type": "ordinal"},
+          {"field": "Type", "type": "nominal"},
+          {"field": "Consumption", "type": "quantitative"}
+        ]
+      }
+    },
+    {
+      "mark": {"type": "line", "point": true},
+      "encoding": {
+        "x": {"field": "Year", "type": "ordinal"},
+        "y": {
+          "field": "Consumption", "type": "quantitative",
+          "scale": {
+            "domain": [0, 5]
+          }
+        },
+        "color": {
+          "field": "Type", "type": "nominal"
+        }
+      }
+    }
+  ]
+}
